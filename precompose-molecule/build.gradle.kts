@@ -34,7 +34,7 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                compileOnly(compose.foundation)
+                implementation(compose.foundation)
                 implementation(project(":precompose"))
                 compileOnly(libs.molecule.runtime)
             }
