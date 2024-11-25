@@ -207,6 +207,10 @@ publishing {
                 }
             }
         }
+    } else {
+        repositories {
+            mavenLocal()
+        }
     }
 
     publications.withType<MavenPublication> {
