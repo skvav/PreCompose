@@ -1,0 +1,190 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose-koin/1.7.0/precompose-koin-1.7.0.module",
+    "group": "moe.tlaster",
+    "module": "precompose-koin",
+    "version": "1.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-koin-wasm-js-1.7.0.klib",
+          "url": "precompose-koin-wasm-js-1.7.0.klib",
+          "size": 9019,
+          "sha512": "f2fe941b336cca7e551488214d2fa7f65eee08e44bdf46771563075af62929b4e9d6fea63d3505203ac9732f219f122b8067beb6f7db4ad255892dd4dc041f63",
+          "sha256": "42ae0eec31567e65a4621fefffaff8d1939bf12c50d486d2c11750bc1e930c2c",
+          "sha1": "57728c7fd6162e4601ec02cc27c00882ba8d0b9f",
+          "md5": "bcce93c7d13a74abf693f209dcb6be01"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose-viewmodel",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-koin-wasm-js-1.7.0.klib",
+          "url": "precompose-koin-wasm-js-1.7.0.klib",
+          "size": 9019,
+          "sha512": "f2fe941b336cca7e551488214d2fa7f65eee08e44bdf46771563075af62929b4e9d6fea63d3505203ac9732f219f122b8067beb6f7db4ad255892dd4dc041f63",
+          "sha256": "42ae0eec31567e65a4621fefffaff8d1939bf12c50d486d2c11750bc1e930c2c",
+          "sha1": "57728c7fd6162e4601ec02cc27c00882ba8d0b9f",
+          "md5": "bcce93c7d13a74abf693f209dcb6be01"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "precompose-koin-wasm-js-1.7.0-sources.jar",
+          "url": "precompose-koin-wasm-js-1.7.0-sources.jar",
+          "size": 1559,
+          "sha512": "194d8e9967a4f37928679f4ac73d59a9a2f913cd8834f4f4349b05fc12f11ca76a4946ea4dea31b971ab3c7fb9cdaff86d10c983eb1d689b262ba73f7b3deba6",
+          "sha256": "12dbb78fca3a1a7bb05bb06087206fa2829964d4b0b9252bf439f409c45a3e5d",
+          "sha1": "70ef88a6f223a3104078dedcc81cf04ddf37ea23",
+          "md5": "c43ad676a52f1676a9c2f09640b01986"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose-viewmodel",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-koin-1.7.0.kotlin_resources.zip",
+          "url": "precompose-koin-wasm-js-1.7.0-kotlin_resources.kotlin_resources.zip",
+          "size": 342,
+          "sha512": "c1f96d53483c69b93c666500619739b59f37c9120c07778faebd88e5fdaad474ed03177dc1284f7bbf1eb506cc636138279bb791009f04da39cf7d7da6f07eb6",
+          "sha256": "726f75b5d6b6c77bc73c7d7dcc7822bfcf64671259188ec82d9d7858246e8f31",
+          "sha1": "d3bff5e0384c744baf25d597d5ab9ca8002178ad",
+          "md5": "709ca27a1d88af1013854e852c23af1f"
+        }
+      ]
+    }
+  ]
+}

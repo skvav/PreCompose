@@ -1,0 +1,232 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose/1.7.0/precompose-1.7.0.module",
+    "group": "moe.tlaster",
+    "module": "precompose",
+    "version": "1.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-js-1.7.0.klib",
+          "url": "precompose-js-1.7.0.klib",
+          "size": 3515301,
+          "sha512": "335817443546d298e38ebcf99795560f9aadbf55488e073f2896a74b3ae5a3f3fcdb415cffcb60970452027309aac88c53dc1d90ffb14c939a5fb18b7ec56334",
+          "sha256": "389d439ed6fad76684d0d3eea7c0ac4b6234dac3783887a4ad886cba69f385a0",
+          "sha1": "64150fafa781046b770ae4a73cecaec4a23aa6a2",
+          "md5": "2bf7baf9b00f98c4a954b4630e881e7a"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-js-1.7.0.klib",
+          "url": "precompose-js-1.7.0.klib",
+          "size": 3515301,
+          "sha512": "335817443546d298e38ebcf99795560f9aadbf55488e073f2896a74b3ae5a3f3fcdb415cffcb60970452027309aac88c53dc1d90ffb14c939a5fb18b7ec56334",
+          "sha256": "389d439ed6fad76684d0d3eea7c0ac4b6234dac3783887a4ad886cba69f385a0",
+          "sha1": "64150fafa781046b770ae4a73cecaec4a23aa6a2",
+          "md5": "2bf7baf9b00f98c4a954b4630e881e7a"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "precompose-js-1.7.0-sources.jar",
+          "url": "precompose-js-1.7.0-sources.jar",
+          "size": 36324,
+          "sha512": "09b0977b03a2699f70e7ff250b46cc14845e69ffbffec2d8dc42d423d62adc0bad9eb01307f8489db43f998e2629a2bd88f5f43f1b5dff7cf4628edd707606b2",
+          "sha256": "032d3844d9655f3de9cc6548d1a127259453df9daf8e0cb5cb3a71b8e0bba9ee",
+          "sha1": "c1bcc21868a1eabdae1a728e9e08c6a99239cf0e",
+          "md5": "9b471435822d75ccaac4a1d55bd14d49"
+        }
+      ]
+    },
+    {
+      "name": "jsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-1.7.0.kotlin_resources.zip",
+          "url": "precompose-js-1.7.0-kotlin_resources.kotlin_resources.zip",
+          "size": 332,
+          "sha512": "0ba583890ea214e973f94701eec2dcbd560dadf6d361ad17dcaef70145715ca259512e664a1d22a02b96822e42843a6703db70fa3a2f86814cf28800537bd7a7",
+          "sha256": "ca661fd08cea73bf317604b2cf5a505e80d64474a86faac7a2bd1a47aa6fa29d",
+          "sha1": "c9942cbb816c8306436b0cb55973001c3244e528",
+          "md5": "6827f1ab07fa5883d569dfb7d92c5904"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose-molecule/1.7.0/precompose-molecule-1.7.0.module",
+    "group": "moe.tlaster",
+    "module": "precompose-molecule",
+    "version": "1.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-swing",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-molecule-jvm-1.7.0.jar",
+          "url": "precompose-molecule-jvm-1.7.0.jar",
+          "size": 17567,
+          "sha512": "955645f6ce9b372519e5bc7193dac8743b66ad3e4bdb0d1256c2a231fc21b43cd6dfee98b6964d8814072967264352009880f1f30ab2a681af5c198d4b29480a",
+          "sha256": "2696b6288160997531a48cb961359663ebbb81306e18854ae680f4518b08acc7",
+          "sha1": "c8f88ad4ba65f89370f41986b1e594929b1944e5",
+          "md5": "37cb69f01174bd04a68699162e18e73c"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-swing",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-molecule-jvm-1.7.0.jar",
+          "url": "precompose-molecule-jvm-1.7.0.jar",
+          "size": 17567,
+          "sha512": "955645f6ce9b372519e5bc7193dac8743b66ad3e4bdb0d1256c2a231fc21b43cd6dfee98b6964d8814072967264352009880f1f30ab2a681af5c198d4b29480a",
+          "sha256": "2696b6288160997531a48cb961359663ebbb81306e18854ae680f4518b08acc7",
+          "sha1": "c8f88ad4ba65f89370f41986b1e594929b1944e5",
+          "md5": "37cb69f01174bd04a68699162e18e73c"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "precompose-molecule-jvm-1.7.0-sources.jar",
+          "url": "precompose-molecule-jvm-1.7.0-sources.jar",
+          "size": 3421,
+          "sha512": "da05d330c0cef8b23be98164cef19c3568bd5e297d586d91e84a18b15fe5bcc6061cd0c1f1b25ea1e80560ff29295be6fbd5f6395d94d0dd7d2cf5dd39dbc80d",
+          "sha256": "9614f75ce1683c07f8ae00572998fd49003c475daddfc14164b14cc5160cab2a",
+          "sha1": "45549679f311e8e104e46a1eb597dc74870de4df",
+          "md5": "6c35a0f8b7f7f334705b2be4dd477a00"
+        }
+      ]
+    }
+  ]
+}

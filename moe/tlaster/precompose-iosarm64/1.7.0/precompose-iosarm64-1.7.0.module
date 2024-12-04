@@ -1,0 +1,241 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose/1.7.0/precompose-1.7.0.module",
+    "group": "moe.tlaster",
+    "module": "precompose",
+    "version": "1.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose.klib",
+          "url": "precompose-iosarm64-1.7.0.klib",
+          "size": 211678,
+          "sha512": "01a2dfe012eba7a5760573c26685ee83c194c314d127ad53ce0cef071e3e957b953999400ef2bf2efa0ab037ec73b95a2b85ed90a4e467e806e7949c40496111",
+          "sha256": "13c5a9beb3f76c5b601a689feb651037426404fdac6f8359dc52415d44a4d23f",
+          "sha1": "17d516676a1ccdc430c4cab506044da04021775e",
+          "md5": "a91a83f9899b4697eeafe1b1d62d18c1"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "precompose-iosarm64-1.7.0-sources.jar",
+          "url": "precompose-iosarm64-1.7.0-sources.jar",
+          "size": 37184,
+          "sha512": "cb98ada373b085ef5075506095a7eda391da1fb318b44c0d944c9921814b0102d2a4210245bafe8faf554626171a93343888fc0a4764aa032c8611143046e411",
+          "sha256": "8383b6fb54d0d51a9aba745246d9943ff91a60b8ba6b6510373f03a33aac5228",
+          "sha1": "92cc4f59157336b14e020cccb6ce540261b0d339",
+          "md5": "c57866275cbe1d0068011ac43b66f0ba"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-1.7.0.kotlin_resources.zip",
+          "url": "precompose-iosarm64-1.7.0-kotlin_resources.kotlin_resources.zip",
+          "size": 332,
+          "sha512": "18670e229f861469dd8b913ec065856641132e6a335f47d5432700d89d2db7198f860ed30fd622290fa70877f08c36ae4836c0d6467c0d0ad81b6b0c2dad1e10",
+          "sha256": "1ed065c60d4686af858147bbb6c121d2281df50ddb35d6f76ad44c8470f44303",
+          "sha1": "e85e2a28270423b13e30dc620e91ba7f387d66b3",
+          "md5": "f7d90b0859ff467a147752de0f6599f6"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-iosarm64-1.7.0-metadata.jar",
+          "url": "precompose-iosarm64-1.7.0-metadata.jar",
+          "size": 8312,
+          "sha512": "1df78f9e9796a8b96962836d55a9c04ce6da040670d56c2bb61649d993b7fa7ad451e7dd9fffcef0163a4f617db4bedc7a0c9f3af40bad029f6e4b1ca1b4be65",
+          "sha256": "05fcd39a41153a588cb34d00c2365c6e5585e1d85b6d22e7b41be02a442696b0",
+          "sha1": "49e24f51b504ec41e50ddb79cb212f90caa5f792",
+          "md5": "b0d4000943f5d92f5300a44047593536"
+        }
+      ]
+    }
+  ]
+}

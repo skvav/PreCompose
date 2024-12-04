@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose-molecule/1.7.0/precompose-molecule-1.7.0.module",
+    "group": "moe.tlaster",
+    "module": "precompose-molecule",
+    "version": "1.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-molecule.klib",
+          "url": "precompose-molecule-macosx64-1.7.0.klib",
+          "size": 18734,
+          "sha512": "6763693313dcb1f5fad93cb3744d8713956e11c5d30188ebaa226d5f90d25f9d83c8c547068eb760dd5520db6c56706a66c0e5689fd1d00e4350cdeb3439f2c2",
+          "sha256": "c0370ffd4e5345e9e3f6a763c5809f9c02d136ee096ba745403b247dfbf48bcf",
+          "sha1": "be1b5e6fcaaa70527ce17de1896708cf566eaa6c",
+          "md5": "9e2055a73493a3dbe44dd4f111946d5b"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "precompose-molecule-macosx64-1.7.0-sources.jar",
+          "url": "precompose-molecule-macosx64-1.7.0-sources.jar",
+          "size": 3469,
+          "sha512": "aca07b6417e8b1b029fff36f05453ca65dced399d9f9b0452ad5ac2c33ccb1f8a5f6e217bf9a04fe219e75752131da37c3fefd0700765ea2e207d2890576a8ce",
+          "sha256": "9ac13d7c7809e345e88feb9cd3dfd385eed7aa23421737693b8de81919e5e969",
+          "sha1": "e40f1245c596e3d9befc674d5964425b86b7cced",
+          "md5": "88a68a161bda3c23ad0bb7a2f1a259ce"
+        }
+      ]
+    },
+    {
+      "name": "macosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-molecule-1.7.0.kotlin_resources.zip",
+          "url": "precompose-molecule-macosx64-1.7.0-kotlin_resources.kotlin_resources.zip",
+          "size": 350,
+          "sha512": "59e1e9e6292cdca78e9c6218c8575dff77ec12a102b3b31b5ddc9ece70db137d7af616ad299de0b6267841e93379a13f99b9758c414053ce0dda84b744c5f70e",
+          "sha256": "0a995d0b152fa16b78baa712852787bfc20b92ec181b3147a110744f6415de6f",
+          "sha1": "3a836f052c5a9298bb428e01dba209e1499d1eb0",
+          "md5": "648bed821cd26c0d29f0233f4efd7bd9"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-molecule-macosx64-1.7.0-metadata.jar",
+          "url": "precompose-molecule-macosx64-1.7.0-metadata.jar",
+          "size": 4918,
+          "sha512": "55e73c7e43b146090721d77c1374df0f11ef824f481c37125cd3c460fcb71520536ec4f744806cfa6dadc47a10a271d59994f9bda827fbd31e629249498a66f6",
+          "sha256": "1376fdecda6bba816541be0b2f15a038e5a44081c788e127a1793de6c28f5bf7",
+          "sha1": "f54d423ff55029eb72ad28cdcfbf414f933958da",
+          "md5": "da40fa801d5ec805d47a7cf57c2adea7"
+        }
+      ]
+    }
+  ]
+}

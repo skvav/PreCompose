@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose/1.7.0/precompose-1.7.0.module",
+    "group": "moe.tlaster",
+    "module": "precompose",
+    "version": "1.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-swing",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-jvm-1.7.0.jar",
+          "url": "precompose-jvm-1.7.0.jar",
+          "size": 248645,
+          "sha512": "3b4156904a99ff5cecefc6f761ca9e8f41de1e656441b46ae683cc3291fe150d1b9b134b27dfd85a7abab6a79d08b7473359c0ecf906710d6c4067d3c892b37c",
+          "sha256": "e6348bc2194354dfffb6e4d0f0c336c4dd1f025583ecc8ad2fbdbc504b79e6e2",
+          "sha1": "d944256390478c4ab616e3da6121941ee1725b79",
+          "md5": "9922281053708c2e992b7e03ed27c0aa"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-swing",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-jvm-1.7.0.jar",
+          "url": "precompose-jvm-1.7.0.jar",
+          "size": 248645,
+          "sha512": "3b4156904a99ff5cecefc6f761ca9e8f41de1e656441b46ae683cc3291fe150d1b9b134b27dfd85a7abab6a79d08b7473359c0ecf906710d6c4067d3c892b37c",
+          "sha256": "e6348bc2194354dfffb6e4d0f0c336c4dd1f025583ecc8ad2fbdbc504b79e6e2",
+          "sha1": "d944256390478c4ab616e3da6121941ee1725b79",
+          "md5": "9922281053708c2e992b7e03ed27c0aa"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "precompose-jvm-1.7.0-sources.jar",
+          "url": "precompose-jvm-1.7.0-sources.jar",
+          "size": 36409,
+          "sha512": "49cca76b9e259402f50ce8f1aac86f46fdd44f7d367ae784c9c5b61ac799090d9fa7eb6850a255399feec12407d59557b6efe94f3ca5219151add37a69b38532",
+          "sha256": "4d747744c998316941df0409d51da15cd27e1656e86608778c9fcc270492c45f",
+          "sha1": "19063ad87b90e061a078272504e3431fa099c4b5",
+          "md5": "768396e2bfac729c7b66e7cf509472c4"
+        }
+      ]
+    }
+  ]
+}
