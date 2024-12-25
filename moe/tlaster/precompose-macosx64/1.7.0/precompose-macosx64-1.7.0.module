@@ -73,11 +73,11 @@
         {
           "name": "precompose.klib",
           "url": "precompose-macosx64-1.7.0.klib",
-          "size": 205514,
-          "sha512": "f3f8acf6e1d8acf9fc613df3705fa0ddeacc8d3986f4f1f41e72c55b13292fd2bca5dc47b5d5253b24e405895720b49d1a9f2d5599b7aa26ba42d15ad2ff9d27",
-          "sha256": "cbc82cb4ce3d43b41c9544a87b1eefdfb01408454a18e06bc8aec3fc1ef18002",
-          "sha1": "8e170e5da53970e7a04fe32c47e23acb8ad837a9",
-          "md5": "6907fe48c95961cbafe96d4b6c8ec564"
+          "size": 205478,
+          "sha512": "12ed0731614b05ff7bbf93dc3c69d15e68df770747aee8f1128f57f1f860bd991e468d98106fac2e59200cced6492a897e86de0ea481aa00c478f37b867fe290",
+          "sha256": "d61f91dc900628bd7ee917b3901811c2f7e630174f08d4948cacd706d15736a7",
+          "sha1": "1b1fc79f1e8f271e11bf39b3437d81e13bed46f0",
+          "md5": "1db69a57cb1f41b056727a39ce7686a7"
         }
       ]
     },
@@ -97,10 +97,10 @@
           "name": "precompose-macosx64-1.7.0-sources.jar",
           "url": "precompose-macosx64-1.7.0-sources.jar",
           "size": 36692,
-          "sha512": "096d5a4a35c521a230bdc66fcd3ff72d1a9731f184706123c6cfd9679a3a5dc0aeb3d2dd3fbe7da4ec87bb5873f76946c1f059c407203442edcd4102616c0f2f",
-          "sha256": "53ef74f2c93bcd4effd547f5be66b4c18cab1f7e04699a893f6779ed48fe1c15",
-          "sha1": "529c26877800afa4bf144eb140cb6be1db0bc3d8",
-          "md5": "78274dc0a1a3b1aa80ef77f4f84be10a"
+          "sha512": "ea937590afa43ab9638d3b1f8805d1af3294eac917fc250aa473685663d299babeacfb1eecdc5f62d9b8f8f53e7735920d1b85d356f417576b09d88cbf416685",
+          "sha256": "e42e4abc24a4c0c61a074ef5b509b5dfa1208f8f5c3581b68daf3933304a0ab8",
+          "sha1": "b8cabbd5b6d4c60f0a2107005cdbe92ca2b712fe",
+          "md5": "f2fbf38e1395676b47958b14ace59a2b"
         }
       ]
     },
@@ -164,10 +164,10 @@
           "name": "precompose-1.7.0.kotlin_resources.zip",
           "url": "precompose-macosx64-1.7.0-kotlin_resources.kotlin_resources.zip",
           "size": 332,
-          "sha512": "54feac04df4f97925926ca4242fac2c7744b2cd9f99ff65db6fe04b8abe14aba8c69dde02ea34448aca0b243224db9ec2757f2226d12711acf96c1bf0477b760",
-          "sha256": "69b5c6f7b152ddf10bcbd80cb2e04c751fa274966296bfe680d0ef67a8b09440",
-          "sha1": "4455506f7aa3365ebacd31b10a4211bc21752576",
-          "md5": "ad5a67fb0b6db2ddb367de3e33eeff21"
+          "sha512": "02b6febaa5e5e77e2f96737ad395482cb19cf755cb27e7e7a040c1266828882d0bea6cce1c14a47e5d56705b4fac50c6cfafd5a2bb22955a63f8404c1c418fa6",
+          "sha256": "75f9604341a949953d65bb17d35fa17b4c3b1529663898c5efa5ed1bce3aba16",
+          "sha1": "c1884cb7fa069b9c2743b09d30deba4911568186",
+          "md5": "cf57fa86df7c2db375c874d8bd5c7844"
         }
       ]
     },
@@ -230,10 +230,10 @@
           "name": "precompose-macosx64-1.7.0-metadata.jar",
           "url": "precompose-macosx64-1.7.0-metadata.jar",
           "size": 8312,
-          "sha512": "e7243e37cf87cbcf0557e27c5ea0ab1c8bfd2b5988e2f431a4ada3f290be263c1e53723e0172baf3bb71979350ee2b368f9bdb02f126ad9da39feb10049171b4",
-          "sha256": "dc660794756f0b6f59d3320f96b2def1ee055f7bdcacf638e04b2575b8166e83",
-          "sha1": "410f2b191493e8b05953ffe4f39c63c1a5d06373",
-          "md5": "04c7299382a93d94afc2e17a26fe5e8b"
+          "sha512": "8ad3190c812342cfbc1ee9e0734fc3670c9a4616ea1412c9572704dcd4d31565f71d957abd5db834f61f3b75788682d420709420076f7b880550bc1801238550",
+          "sha256": "ae6d5fee4f189f7fd6e0f5382f58e1e79aa06c7122fd6cd5bf29fd5db297e7ef",
+          "sha1": "5261d4312f640b3e688aed4f7951e8f5e1712477",
+          "md5": "d89dbd265caed51aac7997dc313259e9"
         }
       ]
     }

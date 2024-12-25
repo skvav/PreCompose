@@ -52,11 +52,11 @@
         {
           "name": "precompose-molecule.klib",
           "url": "precompose-molecule-iosx64-1.7.0.klib",
-          "size": 18729,
-          "sha512": "da942bd26e4c468fb21f0a75d741e64a43be4cffdff72fadca76553894cd057f03d6134597da9050b2e8079c45a9850c81e445951eb5963ab6dd7fc87202c51c",
-          "sha256": "c1443b98fef369983cd282b2972a5d6b50f9f50356854adcae05a1ee4373c003",
-          "sha1": "9d572dba68be91ad64c1912755a842e66ab36954",
-          "md5": "546cdacbd2f8945f3fbbf40df0261123"
+          "size": 18721,
+          "sha512": "fc79ad90a4c58c2cc06e93f8d09418e32a491c86ddafeb66c885fd853bfcdfddd05024587faf77d1b50dcda8739ecbd0c7fbe0c60371849420dc377e6b96cd7e",
+          "sha256": "f9b2538b525b0cd3b6fad739d1727471485a70491f69d8d48d00e8014e90fe6b",
+          "sha1": "eb6cfcdd7c9325b6d67e936c686c80ac8d5fdbb4",
+          "md5": "3ba3f3bbead32de3747b85e737d59178"
         }
       ]
     },
@@ -122,10 +122,10 @@
           "name": "precompose-molecule-1.7.0.kotlin_resources.zip",
           "url": "precompose-molecule-iosx64-1.7.0-kotlin_resources.kotlin_resources.zip",
           "size": 350,
-          "sha512": "0d22e8a6e45a6aca8be78a627404cff486848a260bf1ea42093fbc9e925f902864e742116e5ff2c15f27abbf739b58459cb3daf0ba47a9a64d0fb7beac0b5a89",
-          "sha256": "88ea4265be92f02febe8c343d7e39d4919421e5388ab5e398520e165dda5f276",
-          "sha1": "ee9ec26d6c77548325e4a161d75e7e6ae7434ab8",
-          "md5": "aae7ca64d7e1b683384650249e0eb184"
+          "sha512": "8ff83e96475789390504381b96554e9de31dab8fcfbf6e0036aea79d3e930471c280b45e8524102d2e3780cd68737bccf1e14b30665c507de2d97b94dfcdd9a3",
+          "sha256": "c4a4630fd97c719c46c7da93751b7095d22f5206b8f3a6653346f600c285880e",
+          "sha1": "ba23bb19030245b8e9a55103123a76d17a05a33c",
+          "md5": "3b4f771c02c255407ffd938895a0467b"
         }
       ]
     },
@@ -167,10 +167,10 @@
           "name": "precompose-molecule-iosx64-1.7.0-metadata.jar",
           "url": "precompose-molecule-iosx64-1.7.0-metadata.jar",
           "size": 4918,
-          "sha512": "9e0da490c5ce555a28819c7ff821cef03966cf143421f81096298d08ebb260cbb91ae9a7b11ee6a3629e84aef5d55382046272238489abcafc4ce691d408642a",
-          "sha256": "937b0cf2404f3cd88137fa3af2086ffa76073fe93c74e776350fb8e317a68f77",
-          "sha1": "6c0215609b057abed3016de2ca0f7f4e013792af",
-          "md5": "7e7f5bc79f022f861e9d75a24600615e"
+          "sha512": "a0224fd08b1a4b530adf56c8488af38ba6ce0750dde81ddc9ee3869e6eefc5e672d6145c144c094fa68fd090874adfc5918e0c42572c008f1a315cc03ea1c788",
+          "sha256": "52541dca0b244a0e997f6834606ca535588db8227c4087806a0c8811edb07cd2",
+          "sha1": "51a37999ce0d112993a360279a48c920628e84a0",
+          "md5": "9678aab530535255fa0462f4a40d255a"
         }
       ]
     }

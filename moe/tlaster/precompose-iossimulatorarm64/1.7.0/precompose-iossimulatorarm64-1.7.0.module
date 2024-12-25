@@ -73,11 +73,11 @@
         {
           "name": "precompose.klib",
           "url": "precompose-iossimulatorarm64-1.7.0.klib",
-          "size": 211764,
-          "sha512": "962d47a6fd779f6767f8c2fbfa67c08f7abf2ce9d287fd15405dacfa3c6cdf316fe983a2f3b0c817fd8e9e115f37ea822f012584ad31cfd1d6b24fa314e3e707",
-          "sha256": "fc3ebb341b7c78ded7d0b869000cd7528180cd14bd8cb0cd96a24c4f62a447ac",
-          "sha1": "6e46715520db944c351e93d21a259a43d8c72c1a",
-          "md5": "17b53a6e58b107f07aebfb6c1f4f7cd4"
+          "size": 211730,
+          "sha512": "565fe70a70203a19f9d88a4e97f3690bac0793c310fc1e80156e3203484324aa08dae9b3a187f0cf42239879b0529fc6623871c86e41aad82071fe9f013186d3",
+          "sha256": "65a06cd5a3546f5920259f4e0deda19cfcba5b257feae77c8d741edcbfe0a5bd",
+          "sha1": "9353e04ddd2d0e56ccd2144add392bbbf4861939",
+          "md5": "82b8bb1ffae648a2532b8cc21e723648"
         }
       ]
     },
@@ -97,10 +97,10 @@
           "name": "precompose-iossimulatorarm64-1.7.0-sources.jar",
           "url": "precompose-iossimulatorarm64-1.7.0-sources.jar",
           "size": 37184,
-          "sha512": "cb98ada373b085ef5075506095a7eda391da1fb318b44c0d944c9921814b0102d2a4210245bafe8faf554626171a93343888fc0a4764aa032c8611143046e411",
-          "sha256": "8383b6fb54d0d51a9aba745246d9943ff91a60b8ba6b6510373f03a33aac5228",
-          "sha1": "92cc4f59157336b14e020cccb6ce540261b0d339",
-          "md5": "c57866275cbe1d0068011ac43b66f0ba"
+          "sha512": "89325ac9b40b0af328d6197dcb9b1082965dd5447b245c7f640afe490e5cba8652ce992a4bc9c4cfc2d442ff8492a5db5d67f11b8a653c59bff39b12c1416009",
+          "sha256": "d542099f54ac2a30dbc7f4c0f7cccea93f10056820118fd3f1bcb2c2d5dc8299",
+          "sha1": "e07cbe5b5954d0f35a3d4785c34c16d5f7555596",
+          "md5": "948d01a0c73d2f14250e36fe38465e12"
         }
       ]
     },
@@ -164,10 +164,10 @@
           "name": "precompose-1.7.0.kotlin_resources.zip",
           "url": "precompose-iossimulatorarm64-1.7.0-kotlin_resources.kotlin_resources.zip",
           "size": 332,
-          "sha512": "e52d04b59681da5e82a24c5415b0210b3b18be6295f3c19af70b6ae6383b821af2827611fc976d96280a86e93460a0dbf799f15c95f61cf74d32f6e14931bd5d",
-          "sha256": "00cf1e98071864f511fec9b5222dafd4197984ea1e5f15bc7f559424aa19ab61",
-          "sha1": "05d64f9b250442db9ef61c7979759042c876456f",
-          "md5": "a2a1ded82e0f9fb71d5cbb280f30daf4"
+          "sha512": "02b6febaa5e5e77e2f96737ad395482cb19cf755cb27e7e7a040c1266828882d0bea6cce1c14a47e5d56705b4fac50c6cfafd5a2bb22955a63f8404c1c418fa6",
+          "sha256": "75f9604341a949953d65bb17d35fa17b4c3b1529663898c5efa5ed1bce3aba16",
+          "sha1": "c1884cb7fa069b9c2743b09d30deba4911568186",
+          "md5": "cf57fa86df7c2db375c874d8bd5c7844"
         }
       ]
     },
@@ -230,10 +230,10 @@
           "name": "precompose-iossimulatorarm64-1.7.0-metadata.jar",
           "url": "precompose-iossimulatorarm64-1.7.0-metadata.jar",
           "size": 8312,
-          "sha512": "1df78f9e9796a8b96962836d55a9c04ce6da040670d56c2bb61649d993b7fa7ad451e7dd9fffcef0163a4f617db4bedc7a0c9f3af40bad029f6e4b1ca1b4be65",
-          "sha256": "05fcd39a41153a588cb34d00c2365c6e5585e1d85b6d22e7b41be02a442696b0",
-          "sha1": "49e24f51b504ec41e50ddb79cb212f90caa5f792",
-          "md5": "b0d4000943f5d92f5300a44047593536"
+          "sha512": "8ad3190c812342cfbc1ee9e0734fc3670c9a4616ea1412c9572704dcd4d31565f71d957abd5db834f61f3b75788682d420709420076f7b880550bc1801238550",
+          "sha256": "ae6d5fee4f189f7fd6e0f5382f58e1e79aa06c7122fd6cd5bf29fd5db297e7ef",
+          "sha1": "5261d4312f640b3e688aed4f7951e8f5e1712477",
+          "md5": "d89dbd265caed51aac7997dc313259e9"
         }
       ]
     }

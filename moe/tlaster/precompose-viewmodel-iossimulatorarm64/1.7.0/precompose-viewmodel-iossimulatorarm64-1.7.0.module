@@ -52,11 +52,11 @@
         {
           "name": "precompose-viewmodel.klib",
           "url": "precompose-viewmodel-iossimulatorarm64-1.7.0.klib",
-          "size": 17441,
-          "sha512": "ad1d1864df19698b3dd8f4df0d0abe1224b64f10662d464346fecfc7286148c775b1bf3c9e94d3c43b7578313fa9d44674e8d22cddc7733975bc6ec0e126c6e8",
-          "sha256": "2af6c62d7e831346f531888888bc74b74b43b261ed482b4a47ea030b86dd3ba1",
-          "sha1": "4fb1d90423f6315f156e541889a4f3e8827c60dd",
-          "md5": "d7a744fd9e516a24009ecf65fb5a7efb"
+          "size": 17437,
+          "sha512": "9ac638f1f0255ee91b71234a51f0e075ed3abad7591a12defb4c29ee45dd5a9a649c09677057cd319116bd6734b2e9970f07cf82069bfbf214b05c661185b83a",
+          "sha256": "bde95da9d0cc1de32d75cd3dd2adbba03289ddf9a5b97cdcf01bbc8263a24bf6",
+          "sha1": "dd4f022cf6d64b6a0a5dde83e22a6d953607d4d6",
+          "md5": "bbaf5b55cb334c85bff150d5fe71ae4d"
         }
       ]
     },
@@ -122,10 +122,10 @@
           "name": "precompose-viewmodel-1.7.0.kotlin_resources.zip",
           "url": "precompose-viewmodel-iossimulatorarm64-1.7.0-kotlin_resources.kotlin_resources.zip",
           "size": 352,
-          "sha512": "bd07e678422dc4e35e73ff08bceaa61f8835a0e2ca7853e35c27fd7cd56f07336aa8586fa2e1425f74f40290730f98eae01b350f2862e3207319449b991a3d62",
-          "sha256": "b64fe01729baa1e9b62d59a02d8219e2e5e3be0ae407a8206423a0dad0aebf53",
-          "sha1": "574610514e8397e6a4a5e162813a2d72b030d551",
-          "md5": "e7134fb1d041beb015aa7d1c39241df5"
+          "sha512": "d7ee2e10e6243c4098f28a8b2675066498feb27acb416b8884c08e1fdf07922a19d8a2b5200df627959c45f9fb58ee9bec5e26c388871081263fb2730a734fa0",
+          "sha256": "9f495d67dd83e9d8044ef1fd5c5949087e0ef271aa0eabd81d76b9e65c1083d3",
+          "sha1": "b51f9f548f35c4cfa21cec4d427b6c32e7325d22",
+          "md5": "f0d171b4852f468051c88fc84b9f5f2d"
         }
       ]
     },
@@ -167,10 +167,10 @@
           "name": "precompose-viewmodel-iossimulatorarm64-1.7.0-metadata.jar",
           "url": "precompose-viewmodel-iossimulatorarm64-1.7.0-metadata.jar",
           "size": 261,
-          "sha512": "68cbbc965440ae072660ef09dfa65181d984f4714d9c0fb5ba600ee1b6453ac87ee35d2ef619a324dfbdbbed5ec5d0cd9de95d4b6e914f16684658411c8ba48e",
-          "sha256": "75a77d4cb3d38113fba50e98a79f070f21a8a782939708f5f14e93d70b69c3a9",
-          "sha1": "7ad9af8b04938738c0e28ba2f7860f4bdee66e4f",
-          "md5": "01af7de5fda1465e16680bbe7acc4e2b"
+          "sha512": "1334af3adfac7ac804a6d6b48c860a9b7f16a9ff121db798bc9309a4c22c5629146836f3bc8b2ba53c0dedf4a9afc8a55435a9998d4d6dddeb32b3bb253a2bfa",
+          "sha256": "1776a497fd8ccfa20db34f6c789467205c0f3ccd0c6b0bf4292689ab86eaabba",
+          "sha1": "2f2a493c793ad53e8ba3c675f3f6b8a6818d0313",
+          "md5": "9fbf7ba04c1a5d3a52403ed80e6d35ab"
         }
       ]
     }

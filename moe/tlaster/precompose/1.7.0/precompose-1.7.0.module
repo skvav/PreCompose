@@ -93,10 +93,10 @@
           "name": "precompose-kotlin-1.7.0-sources.jar",
           "url": "precompose-1.7.0-sources.jar",
           "size": 38395,
-          "sha512": "4846afc965a8f4d0a73b61f52d5f6fc96dcfe7a30bdc117dc4d7b680af97e89abdc67a287e5dc0b360de0a5badb4eea520ce2d457f32f7c89dcd8b68cb4d1f03",
-          "sha256": "c83e50825e9c4df03df40147528f969aa5a45c839d751dc90c969ba1a1439a92",
-          "sha1": "8749783a841a20583ec20f9ffece985fe5279a90",
-          "md5": "1a98f8a9ae20c545b8fd948785ceb0c2"
+          "sha512": "b31120dd4d8872bcd63423dfed5f1bc23e3273835686507f297f87e3af6148313a82493d9d255b387765ae6a8a4dc04208bf85aa670ddc4a8d1e16dba7553f81",
+          "sha256": "7a0973f0865189d1d096c2233bf9cf77747ccdcbd11dd845fed28d7d46b36681",
+          "sha1": "fadd3688c0117bada37646ef6a68e98a8594c00d",
+          "md5": "e5ce0c7c9150af26656d6cb484c59723"
         }
       ]
     },

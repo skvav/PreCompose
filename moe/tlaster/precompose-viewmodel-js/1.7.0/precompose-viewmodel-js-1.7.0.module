@@ -44,11 +44,11 @@
         {
           "name": "precompose-viewmodel-js-1.7.0.klib",
           "url": "precompose-viewmodel-js-1.7.0.klib",
-          "size": 3325888,
-          "sha512": "c20249a1eb087d422c24d6b8e78c5c22a680bf05cd05bd44a185d3cca98211c31b9932fd3861ecd6f3fb5e284013e3a91897ee0b22cf0346611420c5505d0e81",
-          "sha256": "1570ae8e8fd76c375062f0251557d2f830fec795055ffc7f5e2b9de31e57f925",
-          "sha1": "cf4fd333e9821f7ca6613f755fd071347f64c2ee",
-          "md5": "90f5b52d1a2328ee04b34dca2623d775"
+          "size": 3325884,
+          "sha512": "9a55d95cd12568ec1451b1979742e5ac0b7e2e8e75f5d1deded6b7624c2815a6154047a1c176e6c0184ca406e8e36f2942be87f5c4e70dbffa29c3e2cf12878f",
+          "sha256": "3338d493a9bf2abb4d48c9eac340218b127b909d3cf83e1beb13ec050e472bb1",
+          "sha1": "2db6e6fd5b4f48ef9e956bb4759959b9ee52bbd5",
+          "md5": "b90d627ea62567e2eeefb198313f1ba8"
         }
       ]
     },
@@ -95,11 +95,11 @@
         {
           "name": "precompose-viewmodel-js-1.7.0.klib",
           "url": "precompose-viewmodel-js-1.7.0.klib",
-          "size": 3325888,
-          "sha512": "c20249a1eb087d422c24d6b8e78c5c22a680bf05cd05bd44a185d3cca98211c31b9932fd3861ecd6f3fb5e284013e3a91897ee0b22cf0346611420c5505d0e81",
-          "sha256": "1570ae8e8fd76c375062f0251557d2f830fec795055ffc7f5e2b9de31e57f925",
-          "sha1": "cf4fd333e9821f7ca6613f755fd071347f64c2ee",
-          "md5": "90f5b52d1a2328ee04b34dca2623d775"
+          "size": 3325884,
+          "sha512": "9a55d95cd12568ec1451b1979742e5ac0b7e2e8e75f5d1deded6b7624c2815a6154047a1c176e6c0184ca406e8e36f2942be87f5c4e70dbffa29c3e2cf12878f",
+          "sha256": "3338d493a9bf2abb4d48c9eac340218b127b909d3cf83e1beb13ec050e472bb1",
+          "sha1": "2db6e6fd5b4f48ef9e956bb4759959b9ee52bbd5",
+          "md5": "b90d627ea62567e2eeefb198313f1ba8"
         }
       ]
     },
@@ -172,10 +172,10 @@
           "name": "precompose-viewmodel-1.7.0.kotlin_resources.zip",
           "url": "precompose-viewmodel-js-1.7.0-kotlin_resources.kotlin_resources.zip",
           "size": 352,
-          "sha512": "9f27c7684ad353981d1b148847e51a48bafb8fc9e35222f6f98ee588eee23786220c30226e9a6a07e173af8a7a452172f76fc7bc3643182f97b46e2e579b570c",
-          "sha256": "d7d6c8973fb89d40a178e8a2f14d5990bdf7671481a1e25cbd227a43ad7ca710",
-          "sha1": "2082acb82bd792daca5e30cf07dabbd4b01f0425",
-          "md5": "536e1bb0dd7e2eac6f849388558b49b5"
+          "sha512": "d7ee2e10e6243c4098f28a8b2675066498feb27acb416b8884c08e1fdf07922a19d8a2b5200df627959c45f9fb58ee9bec5e26c388871081263fb2730a734fa0",
+          "sha256": "9f495d67dd83e9d8044ef1fd5c5949087e0ef271aa0eabd81d76b9e65c1083d3",
+          "sha1": "b51f9f548f35c4cfa21cec4d427b6c32e7325d22",
+          "md5": "f0d171b4852f468051c88fc84b9f5f2d"
         }
       ]
     }

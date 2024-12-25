@@ -51,11 +51,11 @@
         {
           "name": "precompose-js-1.7.0.klib",
           "url": "precompose-js-1.7.0.klib",
-          "size": 3515301,
-          "sha512": "335817443546d298e38ebcf99795560f9aadbf55488e073f2896a74b3ae5a3f3fcdb415cffcb60970452027309aac88c53dc1d90ffb14c939a5fb18b7ec56334",
-          "sha256": "389d439ed6fad76684d0d3eea7c0ac4b6234dac3783887a4ad886cba69f385a0",
-          "sha1": "64150fafa781046b770ae4a73cecaec4a23aa6a2",
-          "md5": "2bf7baf9b00f98c4a954b4630e881e7a"
+          "size": 3515284,
+          "sha512": "3acad6904a4c4c2021002982ba91a20a9e3fecd75275d875adfcd5e61198d3de44e26b91e882cb7a6661df69d9d11bdedf7837977b47238ac5b8b1a331b03360",
+          "sha256": "a8972b3a453551df456af5b195ecfa6a6c32dfc7325d1d41c456d6d5c5ea5aaa",
+          "sha1": "f50be3c0df0b9bd361bc165d10b73a836d2e4c10",
+          "md5": "0ef472c3498922bf6fca90829ec5e1bf"
         }
       ]
     },
@@ -123,11 +123,11 @@
         {
           "name": "precompose-js-1.7.0.klib",
           "url": "precompose-js-1.7.0.klib",
-          "size": 3515301,
-          "sha512": "335817443546d298e38ebcf99795560f9aadbf55488e073f2896a74b3ae5a3f3fcdb415cffcb60970452027309aac88c53dc1d90ffb14c939a5fb18b7ec56334",
-          "sha256": "389d439ed6fad76684d0d3eea7c0ac4b6234dac3783887a4ad886cba69f385a0",
-          "sha1": "64150fafa781046b770ae4a73cecaec4a23aa6a2",
-          "md5": "2bf7baf9b00f98c4a954b4630e881e7a"
+          "size": 3515284,
+          "sha512": "3acad6904a4c4c2021002982ba91a20a9e3fecd75275d875adfcd5e61198d3de44e26b91e882cb7a6661df69d9d11bdedf7837977b47238ac5b8b1a331b03360",
+          "sha256": "a8972b3a453551df456af5b195ecfa6a6c32dfc7325d1d41c456d6d5c5ea5aaa",
+          "sha1": "f50be3c0df0b9bd361bc165d10b73a836d2e4c10",
+          "md5": "0ef472c3498922bf6fca90829ec5e1bf"
         }
       ]
     },
@@ -147,10 +147,10 @@
           "name": "precompose-js-1.7.0-sources.jar",
           "url": "precompose-js-1.7.0-sources.jar",
           "size": 36324,
-          "sha512": "09b0977b03a2699f70e7ff250b46cc14845e69ffbffec2d8dc42d423d62adc0bad9eb01307f8489db43f998e2629a2bd88f5f43f1b5dff7cf4628edd707606b2",
-          "sha256": "032d3844d9655f3de9cc6548d1a127259453df9daf8e0cb5cb3a71b8e0bba9ee",
-          "sha1": "c1bcc21868a1eabdae1a728e9e08c6a99239cf0e",
-          "md5": "9b471435822d75ccaac4a1d55bd14d49"
+          "sha512": "fc893ef438e263656cc8a541c3d47b133e7c6a3ac346d31f90065c643142b5173db7f303b20ac8bc0b2c521e1183eaca5ec49a3e8ba25e7408e1c507e55b9484",
+          "sha256": "d86682c7c4ff78e6fd4090bfd5b29394b1973040d5220f0730a6c2e2e74e5e36",
+          "sha1": "cd8627d8432dfe130c55853e16c7f8035751bda8",
+          "md5": "5bbaea3de8f2a25c265aaeba1d3eabd8"
         }
       ]
     },
@@ -221,10 +221,10 @@
           "name": "precompose-1.7.0.kotlin_resources.zip",
           "url": "precompose-js-1.7.0-kotlin_resources.kotlin_resources.zip",
           "size": 332,
-          "sha512": "0ba583890ea214e973f94701eec2dcbd560dadf6d361ad17dcaef70145715ca259512e664a1d22a02b96822e42843a6703db70fa3a2f86814cf28800537bd7a7",
-          "sha256": "ca661fd08cea73bf317604b2cf5a505e80d64474a86faac7a2bd1a47aa6fa29d",
-          "sha1": "c9942cbb816c8306436b0cb55973001c3244e528",
-          "md5": "6827f1ab07fa5883d569dfb7d92c5904"
+          "sha512": "02b6febaa5e5e77e2f96737ad395482cb19cf755cb27e7e7a040c1266828882d0bea6cce1c14a47e5d56705b4fac50c6cfafd5a2bb22955a63f8404c1c418fa6",
+          "sha256": "75f9604341a949953d65bb17d35fa17b4c3b1529663898c5efa5ed1bce3aba16",
+          "sha1": "c1884cb7fa069b9c2743b09d30deba4911568186",
+          "md5": "cf57fa86df7c2db375c874d8bd5c7844"
         }
       ]
     }

@@ -52,11 +52,11 @@
         {
           "name": "precompose-molecule.klib",
           "url": "precompose-molecule-iossimulatorarm64-1.7.0.klib",
-          "size": 18832,
-          "sha512": "a0352d6515c6e06a701eef22c9ea09fe83fb6c85cb77b712fb47ebca2f528c28cd53e8a008a44929de6ac583e4693276a4632fe9f85a5f5b1daa11e160883c0a",
-          "sha256": "995f5d8b119dbb65bdaab0e15cad6ea6ab7019e2231cd06b21025ba062d2459f",
-          "sha1": "d193f6cc0edcf28295f628a790be1f7ab5929236",
-          "md5": "9c33b767e03e701ea49265eda254257a"
+          "size": 18824,
+          "sha512": "72d6ebdfdd994fce5c43ee41d5e8c4932c04e95e32280b6d982b2d5af3551cdad81375afe2584d73f66e2513a9022f89a5c147552fd448326f904307af661df4",
+          "sha256": "fad8896ecdcce179e6bd8af44b3b23a81339803358e2a44b070b450f8eb3754f",
+          "sha1": "42631980e398a7913549a628d01b34f80cc9f3b9",
+          "md5": "aa14306fa785f913dd56b17f8608fe20"
         }
       ]
     },
@@ -122,10 +122,10 @@
           "name": "precompose-molecule-1.7.0.kotlin_resources.zip",
           "url": "precompose-molecule-iossimulatorarm64-1.7.0-kotlin_resources.kotlin_resources.zip",
           "size": 350,
-          "sha512": "ae4035d2f07a91468b605d45a23cb77bcf7d65389f11d633f5ecccf95b5ebef3983512b28e1bfc02b9aaea03ad0f2277800c26a9c15d74d4df0211f4d674af0b",
-          "sha256": "398767fabeb2e8125a8914065e346fb6c9aa4d175f20100279c19a287354742f",
-          "sha1": "506096da2550041d5f8a0a50648ef62410eb9618",
-          "md5": "89300c6466994c73fe3ba1ac8ea62623"
+          "sha512": "8ff83e96475789390504381b96554e9de31dab8fcfbf6e0036aea79d3e930471c280b45e8524102d2e3780cd68737bccf1e14b30665c507de2d97b94dfcdd9a3",
+          "sha256": "c4a4630fd97c719c46c7da93751b7095d22f5206b8f3a6653346f600c285880e",
+          "sha1": "ba23bb19030245b8e9a55103123a76d17a05a33c",
+          "md5": "3b4f771c02c255407ffd938895a0467b"
         }
       ]
     },
@@ -167,10 +167,10 @@
           "name": "precompose-molecule-iossimulatorarm64-1.7.0-metadata.jar",
           "url": "precompose-molecule-iossimulatorarm64-1.7.0-metadata.jar",
           "size": 4918,
-          "sha512": "a631deb4a78f085d9888c1d967c7e0abc5c4e387181cc27810e2f78f72529426ea0ca101173201f8101683a50c39acd95bbdd437b7c81642a3485aa4f646ad0d",
-          "sha256": "1f238f7a7b8ad08d077a61c644f644ea8aa710f1a539603e673dd57e42853397",
-          "sha1": "4c6c8255b7c0ab50a5235dd5e295efca900f21c7",
-          "md5": "8185d5bb69787c19c35638de1e345959"
+          "sha512": "a0224fd08b1a4b530adf56c8488af38ba6ce0750dde81ddc9ee3869e6eefc5e672d6145c144c094fa68fd090874adfc5918e0c42572c008f1a315cc03ea1c788",
+          "sha256": "52541dca0b244a0e997f6834606ca535588db8227c4087806a0c8811edb07cd2",
+          "sha1": "51a37999ce0d112993a360279a48c920628e84a0",
+          "md5": "9678aab530535255fa0462f4a40d255a"
         }
       ]
     }

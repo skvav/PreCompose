@@ -37,11 +37,11 @@
         {
           "name": "precompose-viewmodel-wasm-js-1.7.0.klib",
           "url": "precompose-viewmodel-wasm-js-1.7.0.klib",
-          "size": 16680,
-          "sha512": "7783a3dbe140983846e8d4fe0d704b0d15737f51bed6ba69c01952c78d77860a60ba5f3d20bc27114ec2b304b9db778db8145e1f21687f727a41c65cfb22c9b8",
-          "sha256": "d282c0fe24b2cc4e3aebcf85f9d48563493d9b810a03f9473598cc664c0ed1f6",
-          "sha1": "874c5bafe714625c54fb3fbffa17db49e9e9f1b2",
-          "md5": "cb2781284b8b62cf5a85449a4278bb36"
+          "size": 16674,
+          "sha512": "46f860309d0221b67304457f4ff997c2a57f111f6dac732b008da0bbfa92befb9e5e99b706a9db19cac34a6318b8621bd748c5710b332eb348ab972cdae81221",
+          "sha256": "ae0b6af17c5476f9c1c089276f0f2738ff84f7a2f3f0a3193b52fe3f10ca671e",
+          "sha1": "bf3ae6255af8a7bc6a88c3b3d5599e653f1e4ad4",
+          "md5": "ebf6c5e65de5e9460780b83b91ac7d9b"
         }
       ]
     },
@@ -81,11 +81,11 @@
         {
           "name": "precompose-viewmodel-wasm-js-1.7.0.klib",
           "url": "precompose-viewmodel-wasm-js-1.7.0.klib",
-          "size": 16680,
-          "sha512": "7783a3dbe140983846e8d4fe0d704b0d15737f51bed6ba69c01952c78d77860a60ba5f3d20bc27114ec2b304b9db778db8145e1f21687f727a41c65cfb22c9b8",
-          "sha256": "d282c0fe24b2cc4e3aebcf85f9d48563493d9b810a03f9473598cc664c0ed1f6",
-          "sha1": "874c5bafe714625c54fb3fbffa17db49e9e9f1b2",
-          "md5": "cb2781284b8b62cf5a85449a4278bb36"
+          "size": 16674,
+          "sha512": "46f860309d0221b67304457f4ff997c2a57f111f6dac732b008da0bbfa92befb9e5e99b706a9db19cac34a6318b8621bd748c5710b332eb348ab972cdae81221",
+          "sha256": "ae0b6af17c5476f9c1c089276f0f2738ff84f7a2f3f0a3193b52fe3f10ca671e",
+          "sha1": "bf3ae6255af8a7bc6a88c3b3d5599e653f1e4ad4",
+          "md5": "ebf6c5e65de5e9460780b83b91ac7d9b"
         }
       ]
     },
@@ -151,10 +151,10 @@
           "name": "precompose-viewmodel-1.7.0.kotlin_resources.zip",
           "url": "precompose-viewmodel-wasm-js-1.7.0-kotlin_resources.kotlin_resources.zip",
           "size": 352,
-          "sha512": "ad11ee9321c2eb4343031eec5ca4aeb360d7d1bafb7155ee3fc0340e8277fa14f9818cbe7e54d7eff41a96d2e2b1b25f64a0f14c92e1306d2d1dabd695a1a2ab",
-          "sha256": "69498bd62be3687f67eb9c81f55967b025a8540dff3354bb95f0e17df68a2ddf",
-          "sha1": "f8a1515ac1c949af925f13ed7c72754ed379ab09",
-          "md5": "9664c128662fc67d9d18dc37396a2bcc"
+          "sha512": "d7ee2e10e6243c4098f28a8b2675066498feb27acb416b8884c08e1fdf07922a19d8a2b5200df627959c45f9fb58ee9bec5e26c388871081263fb2730a734fa0",
+          "sha256": "9f495d67dd83e9d8044ef1fd5c5949087e0ef271aa0eabd81d76b9e65c1083d3",
+          "sha1": "b51f9f548f35c4cfa21cec4d427b6c32e7325d22",
+          "md5": "f0d171b4852f468051c88fc84b9f5f2d"
         }
       ]
     }

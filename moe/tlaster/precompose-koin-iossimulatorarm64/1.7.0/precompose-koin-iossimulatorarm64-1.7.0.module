@@ -73,11 +73,11 @@
         {
           "name": "precompose-koin.klib",
           "url": "precompose-koin-iossimulatorarm64-1.7.0.klib",
-          "size": 9389,
-          "sha512": "8eabcaea246d8b9f153b63f9833f44989175b6c8ce688e66601f31fe29dfb746003ad049cbc9be13850dd75b911b77f219d22a4e911992ffc9022fa76ac02f1a",
-          "sha256": "3ea8b003372e4e70bd6f95cd195e6a476b2d44e7c6af456a84cd46eb3febe5d2",
-          "sha1": "3f422c5ce25d7c22e724024efd8cc9e03a12e36b",
-          "md5": "2a00419fbac6c4e62298fe6f65deb54b"
+          "size": 9383,
+          "sha512": "2813bcfc9cfadab2cdf0459ddd49cb4d87dd993bff6290a8ca6dcf36ea2551b8a5f6bffe1a7ce34b8473c2a2fdaf2884aba020bef303e4cc87ad1c971ae3940d",
+          "sha256": "e7f4ddae00190b75344b9d2c7f92bdc84eccce302c2f546400d54aa32755744d",
+          "sha1": "5fd05d1770fede59d2200992a1873168201820cd",
+          "md5": "3d64cbc54894fdb368a2125885bc2fd9"
         }
       ]
     },
@@ -164,10 +164,10 @@
           "name": "precompose-koin-1.7.0.kotlin_resources.zip",
           "url": "precompose-koin-iossimulatorarm64-1.7.0-kotlin_resources.kotlin_resources.zip",
           "size": 342,
-          "sha512": "7454882964089123324ef82b11a7a5f982c1464e7e7a9377c01c81f24f1ae7bda4570ba033d1507cc4b582d0012aec39dd62612f546e130eadb811b3a97112b4",
-          "sha256": "27884c67228bef3bec24140f5510ba9a32187865f06194d2a180ee66e5fe0bc3",
-          "sha1": "c4f819015f535010d0f689e6f64370da9f816920",
-          "md5": "08d53b31886a6fbe4ed59c6d7ff6265c"
+          "sha512": "5cacdeaba8e9903cb0501cd9a44a9fcb655fcaf8317a3b87ef1a342f4fb7a590f848cc9cf00e77451b5e7609109360bcda1761150356b9eec5b173a099d7d689",
+          "sha256": "5a58973e9fab7fb07e98f9dca1c9f2eba23262d43ccd79dd34e233a58500cfb2",
+          "sha1": "4b400b1eb8c3074fb9b86c81e60b86c3eb82988f",
+          "md5": "b232779e4967d51fb3e5fa5b9450c807"
         }
       ]
     },
@@ -230,10 +230,10 @@
           "name": "precompose-koin-iossimulatorarm64-1.7.0-metadata.jar",
           "url": "precompose-koin-iossimulatorarm64-1.7.0-metadata.jar",
           "size": 261,
-          "sha512": "dce984bc2b92775886f5597646d34d6fbb32d065ffff3df9e1deb3159385af7c30c5bdfe8e6700fa406a5ecfa712aafe0706261cb688c957754195a15ae8e079",
-          "sha256": "ae7a9bc034700a5f32dbe5b16ac9e352ea2fbef5c2d005925b366a339c4d6d32",
-          "sha1": "a83ceeddad660777ddb9def1b231953e89a262c4",
-          "md5": "defc96c0cabe3ee07702c8ac82cd8607"
+          "sha512": "2e6e17549f248d4e9066a242addf8499c24dfb4f28e75bc053d73c7af8559a3cc947dca11f3a8e66977a487c52d4c12465e8a04034a34436ecf13d634442bd15",
+          "sha256": "37193144bee9cfc791d8ad49945a5488efc3392fae39a3338602819287c39ce4",
+          "sha1": "f7bbde831894a1ae52601b4eae19ee531b9fd3c1",
+          "md5": "315fe437aa6cddef33b69c9529309fc6"
         }
       ]
     }

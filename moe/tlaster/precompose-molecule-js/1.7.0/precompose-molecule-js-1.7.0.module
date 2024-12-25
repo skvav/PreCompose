@@ -44,11 +44,11 @@
         {
           "name": "precompose-molecule-js-1.7.0.klib",
           "url": "precompose-molecule-js-1.7.0.klib",
-          "size": 3327262,
-          "sha512": "a88cc8008890065b9e00a5a7bec1ea91f4ecfd52ac129ea1e5d981bcfc82acf9bbc0bbe0b8c2015a49b08ab4fcec6e5b8220c0197ea2f0c093337cf461c5cf0c",
-          "sha256": "38125fce7d9b3b106aa968783c68953c4059d4a0476c0cb1d8bdee6136a32951",
-          "sha1": "845e2af14fdbb03dcaa46a09224a9d93997ec1c3",
-          "md5": "ac6e8bb7053e3f5bf078a2aa16da6e3e"
+          "size": 3327258,
+          "sha512": "08c76de2f5a4b2d9a6dea98c5f97ee58ffc9b54d56beea6c0c104b164cb50a918dbec82c46b91058ab363166e689ade612246c204d2bef240eb78e8befa6f99b",
+          "sha256": "80e4941da92ac3f0fcdb96f2f67be0ba0cecb56dee2058eb2764ce460bfbc6ed",
+          "sha1": "a3c46fbaa9dd9f0d22710b9a77a48ca085e07320",
+          "md5": "ec5153451ea498d365042f7f4b3b5f5b"
         }
       ]
     },
@@ -95,11 +95,11 @@
         {
           "name": "precompose-molecule-js-1.7.0.klib",
           "url": "precompose-molecule-js-1.7.0.klib",
-          "size": 3327262,
-          "sha512": "a88cc8008890065b9e00a5a7bec1ea91f4ecfd52ac129ea1e5d981bcfc82acf9bbc0bbe0b8c2015a49b08ab4fcec6e5b8220c0197ea2f0c093337cf461c5cf0c",
-          "sha256": "38125fce7d9b3b106aa968783c68953c4059d4a0476c0cb1d8bdee6136a32951",
-          "sha1": "845e2af14fdbb03dcaa46a09224a9d93997ec1c3",
-          "md5": "ac6e8bb7053e3f5bf078a2aa16da6e3e"
+          "size": 3327258,
+          "sha512": "08c76de2f5a4b2d9a6dea98c5f97ee58ffc9b54d56beea6c0c104b164cb50a918dbec82c46b91058ab363166e689ade612246c204d2bef240eb78e8befa6f99b",
+          "sha256": "80e4941da92ac3f0fcdb96f2f67be0ba0cecb56dee2058eb2764ce460bfbc6ed",
+          "sha1": "a3c46fbaa9dd9f0d22710b9a77a48ca085e07320",
+          "md5": "ec5153451ea498d365042f7f4b3b5f5b"
         }
       ]
     },
@@ -172,10 +172,10 @@
           "name": "precompose-molecule-1.7.0.kotlin_resources.zip",
           "url": "precompose-molecule-js-1.7.0-kotlin_resources.kotlin_resources.zip",
           "size": 350,
-          "sha512": "0d22e8a6e45a6aca8be78a627404cff486848a260bf1ea42093fbc9e925f902864e742116e5ff2c15f27abbf739b58459cb3daf0ba47a9a64d0fb7beac0b5a89",
-          "sha256": "88ea4265be92f02febe8c343d7e39d4919421e5388ab5e398520e165dda5f276",
-          "sha1": "ee9ec26d6c77548325e4a161d75e7e6ae7434ab8",
-          "md5": "aae7ca64d7e1b683384650249e0eb184"
+          "sha512": "808036ce5b0ed255183bcde0a8eddf0639ac023ecc4e4a02dac6b042c0946908477b954ac946f7d98a11d654850ec3c842af9515d5e4c9341947f471a013e1f7",
+          "sha256": "7d0641bb8019574d273565855569736532348f78bfa8793ba859ad1c492807e4",
+          "sha1": "7569a1081b8911a648de56bb77fceb215d4e87e0",
+          "md5": "fa03397b0fb5bdc540af74d5e9697421"
         }
       ]
     }

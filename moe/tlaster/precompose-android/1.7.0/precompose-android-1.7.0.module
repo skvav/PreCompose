@@ -57,11 +57,11 @@
         {
           "name": "precompose-release.aar",
           "url": "precompose-android-1.7.0.aar",
-          "size": 235381,
-          "sha512": "fc63a7b7fa1b0ace0bc6db66209a152e65c4ded10a4c565b0f41daa7073b8ae8d770ae626a051c282d73ea0be798e0eaed95205024f5ed0cdefeab762b2a08df",
-          "sha256": "8c4806899be236ef1ad156722072d2b43c7032dcfb45632cd8fa0f1b930351dd",
-          "sha1": "ce38fa65da40eb8337718e4a3040ce67260bc1c0",
-          "md5": "f20f1639459fc48e401632c0880090cc"
+          "size": 235345,
+          "sha512": "0771438dca595d03520d3f0c8e0c1974a28613268d511d4bd422b39de96491260bc8c2bf8d4f5a653ac2541ad4a0fba8bd198dd995250d3145897205e2cad693",
+          "sha256": "46d323064711c4ae029d6493b92675c40c12ac67c11a6f12c55e1cc6b1274b61",
+          "sha1": "bd342095d9e38a7b7836750d703d169a30bc8b0e",
+          "md5": "70239bd2fcdb565c77b6dda6af768e78"
         }
       ]
     },
@@ -310,11 +310,11 @@
         {
           "name": "precompose-release.aar",
           "url": "precompose-android-1.7.0.aar",
-          "size": 235381,
-          "sha512": "fc63a7b7fa1b0ace0bc6db66209a152e65c4ded10a4c565b0f41daa7073b8ae8d770ae626a051c282d73ea0be798e0eaed95205024f5ed0cdefeab762b2a08df",
-          "sha256": "8c4806899be236ef1ad156722072d2b43c7032dcfb45632cd8fa0f1b930351dd",
-          "sha1": "ce38fa65da40eb8337718e4a3040ce67260bc1c0",
-          "md5": "f20f1639459fc48e401632c0880090cc"
+          "size": 235345,
+          "sha512": "0771438dca595d03520d3f0c8e0c1974a28613268d511d4bd422b39de96491260bc8c2bf8d4f5a653ac2541ad4a0fba8bd198dd995250d3145897205e2cad693",
+          "sha256": "46d323064711c4ae029d6493b92675c40c12ac67c11a6f12c55e1cc6b1274b61",
+          "sha1": "bd342095d9e38a7b7836750d703d169a30bc8b0e",
+          "md5": "70239bd2fcdb565c77b6dda6af768e78"
         }
       ]
     },
@@ -334,10 +334,10 @@
           "name": "precompose-android-1.7.0-sources.jar",
           "url": "precompose-android-1.7.0-sources.jar",
           "size": 37897,
-          "sha512": "ce8566cee84f6604d4546719efccac739c0b9254aef87665519875dc325f510e78f875c8f59127c9eadbc28e0074f0baf1488d7f4aadc11c41b8f867de5c11f8",
-          "sha256": "0e63fe93c4a339e2e2085b6548efaf9ce4a8b3b767ce28a348cbae16e2504c84",
-          "sha1": "60d43d0da856729b566edb24eb39993ef52a713e",
-          "md5": "7bede91ba61f556e1bcf3a309728ed8d"
+          "sha512": "834ba3ee12b90f22a43e8f189eabe14802fb325353cd6d6e9cfa7524026077343353b1422688b4861903831f96695b0556ec742d57da042a723231333a7a40b3",
+          "sha256": "1f8b8e2834efb4f4d2c94133e16f9c494fa5a59366b9347fe7d2df137dc4d6b0",
+          "sha1": "5272ef609b14ddb5d6e78149a2c38a3f8842aec5",
+          "md5": "245e1b0f5028aa48290162a3175cecb7"
         }
       ]
     }

@@ -73,11 +73,11 @@
         {
           "name": "precompose-koin.klib",
           "url": "precompose-koin-iosarm64-1.7.0.klib",
-          "size": 9303,
-          "sha512": "de8b45eca708fa2b3150a32006ce209a254f27c8d7eaef8d228cac56fcf814659017ef488c4d985b30e7dd658a436109cc6125ea8bcf97ef0505e6a3242a871e",
-          "sha256": "5e0d24e14e3bed773f0333669b3baff953884df47ce6b3a1387125907380e028",
-          "sha1": "b30ed4d8681adc7297c31abd1551ad9a16eec649",
-          "md5": "bbdf9ea284e880ae1bddbeecaa70297e"
+          "size": 9297,
+          "sha512": "4215ef4628b733bc8a523a1ff485e1a87192fb0166e81e48d1df499e9919d60a03cd9c73c385af3916e81db1e04877e8841e3e73042e6aabb7f489c62de6f734",
+          "sha256": "0f63fb44d07818d2500f555e035b0111dc1934bd02e775bd21d04bfaeaae5a93",
+          "sha1": "ae20e5eb2c91fc15f7605cd9f91434293f724e94",
+          "md5": "165dcc057ccd9d163e0687d8ab3f70ba"
         }
       ]
     },
@@ -164,10 +164,10 @@
           "name": "precompose-koin-1.7.0.kotlin_resources.zip",
           "url": "precompose-koin-iosarm64-1.7.0-kotlin_resources.kotlin_resources.zip",
           "size": 342,
-          "sha512": "384d2c376afe05371a2d8668c20c0c793a72a7663b0e2202f4be20e1198304562d2fcc17f32f2e820cebbf36c33735a3f6f61adc5a87700ce1f66b6d6be0af0d",
-          "sha256": "5447e8f5c46ba9b044331e50c99538ef7a718163bbccfe509e9a076d36519640",
-          "sha1": "1d449c34edb01d2f65eb4e7e7d6fc19575a9a59e",
-          "md5": "c2215348eca91f76bfd3292bf526f43f"
+          "sha512": "5cacdeaba8e9903cb0501cd9a44a9fcb655fcaf8317a3b87ef1a342f4fb7a590f848cc9cf00e77451b5e7609109360bcda1761150356b9eec5b173a099d7d689",
+          "sha256": "5a58973e9fab7fb07e98f9dca1c9f2eba23262d43ccd79dd34e233a58500cfb2",
+          "sha1": "4b400b1eb8c3074fb9b86c81e60b86c3eb82988f",
+          "md5": "b232779e4967d51fb3e5fa5b9450c807"
         }
       ]
     },
@@ -230,10 +230,10 @@
           "name": "precompose-koin-iosarm64-1.7.0-metadata.jar",
           "url": "precompose-koin-iosarm64-1.7.0-metadata.jar",
           "size": 261,
-          "sha512": "3d2f0a2c8566727e053f2e3293d05eff10067ddeacffb7bd20880287611efe10637e0c0691ef2b3f7bf5fd5b6ea937e03a41724975061403d0d98a0d1bb043ee",
-          "sha256": "f2e012d655117e9949628f197d0d7e09f80418f94f217848941477b2ca63689d",
-          "sha1": "2f11dc414a84514e12a13b43c9236ef7c5c08221",
-          "md5": "cbc25970e70a0d99e51fcb406f0b8a1c"
+          "sha512": "2e6e17549f248d4e9066a242addf8499c24dfb4f28e75bc053d73c7af8559a3cc947dca11f3a8e66977a487c52d4c12465e8a04034a34436ecf13d634442bd15",
+          "sha256": "37193144bee9cfc791d8ad49945a5488efc3392fae39a3338602819287c39ce4",
+          "sha1": "f7bbde831894a1ae52601b4eae19ee531b9fd3c1",
+          "md5": "315fe437aa6cddef33b69c9529309fc6"
         }
       ]
     }

@@ -51,11 +51,11 @@
         {
           "name": "precompose-jvm-1.7.0.jar",
           "url": "precompose-jvm-1.7.0.jar",
-          "size": 248645,
-          "sha512": "3b4156904a99ff5cecefc6f761ca9e8f41de1e656441b46ae683cc3291fe150d1b9b134b27dfd85a7abab6a79d08b7473359c0ecf906710d6c4067d3c892b37c",
-          "sha256": "e6348bc2194354dfffb6e4d0f0c336c4dd1f025583ecc8ad2fbdbc504b79e6e2",
-          "sha1": "d944256390478c4ab616e3da6121941ee1725b79",
-          "md5": "9922281053708c2e992b7e03ed27c0aa"
+          "size": 248582,
+          "sha512": "d04f6bfb62cded97385e077637767fc6e9600e3e596a41bab1d98890661f6884cc420d5ba2cef95f44fda9e601e47b62cd0e6e829cbd50cd31ceda13d062e4e6",
+          "sha256": "376eccaeab5f3676c8086cc0b0169ea1c3cfe4e2e9447058e6ba148f4dd39c1e",
+          "sha1": "1fd845597bd4bd78e68848c60635a40d1c32e132",
+          "md5": "070b2d9f1ef2ecbb8c986f7f2254f5d0"
         }
       ]
     },
@@ -123,11 +123,11 @@
         {
           "name": "precompose-jvm-1.7.0.jar",
           "url": "precompose-jvm-1.7.0.jar",
-          "size": 248645,
-          "sha512": "3b4156904a99ff5cecefc6f761ca9e8f41de1e656441b46ae683cc3291fe150d1b9b134b27dfd85a7abab6a79d08b7473359c0ecf906710d6c4067d3c892b37c",
-          "sha256": "e6348bc2194354dfffb6e4d0f0c336c4dd1f025583ecc8ad2fbdbc504b79e6e2",
-          "sha1": "d944256390478c4ab616e3da6121941ee1725b79",
-          "md5": "9922281053708c2e992b7e03ed27c0aa"
+          "size": 248582,
+          "sha512": "d04f6bfb62cded97385e077637767fc6e9600e3e596a41bab1d98890661f6884cc420d5ba2cef95f44fda9e601e47b62cd0e6e829cbd50cd31ceda13d062e4e6",
+          "sha256": "376eccaeab5f3676c8086cc0b0169ea1c3cfe4e2e9447058e6ba148f4dd39c1e",
+          "sha1": "1fd845597bd4bd78e68848c60635a40d1c32e132",
+          "md5": "070b2d9f1ef2ecbb8c986f7f2254f5d0"
         }
       ]
     },
@@ -147,10 +147,10 @@
           "name": "precompose-jvm-1.7.0-sources.jar",
           "url": "precompose-jvm-1.7.0-sources.jar",
           "size": 36409,
-          "sha512": "49cca76b9e259402f50ce8f1aac86f46fdd44f7d367ae784c9c5b61ac799090d9fa7eb6850a255399feec12407d59557b6efe94f3ca5219151add37a69b38532",
-          "sha256": "4d747744c998316941df0409d51da15cd27e1656e86608778c9fcc270492c45f",
-          "sha1": "19063ad87b90e061a078272504e3431fa099c4b5",
-          "md5": "768396e2bfac729c7b66e7cf509472c4"
+          "sha512": "6e36c8a714c6a2a4a81e8aca1418da38ca2c6af09e775eef34a9177fefead75b50d410c622eea404675424973455687e2eb4e93705947818596813e4180c3d2d",
+          "sha256": "491b39edb6991b47cae6c249f4edfb550cb2c025a528e186990f0bab13f37982",
+          "sha1": "b89bd8ec3b2c947c5e8adc2cad37a9e877da2fe8",
+          "md5": "b93365ee3ad1614004fb1dccf36ccc8c"
         }
       ]
     }

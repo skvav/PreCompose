@@ -52,11 +52,11 @@
         {
           "name": "precompose-viewmodel.klib",
           "url": "precompose-viewmodel-macosx64-1.7.0.klib",
-          "size": 17342,
-          "sha512": "9518b54ac9ccf4f8848db45e7bbfe0dea3486bdfe5ebff487f68c3032b5cfaff78c0c79656481f932b2ef0e0f577dbc73f9cd25902f58473414020f0169552af",
-          "sha256": "69904c3f64d87363917ab28c77c0f34b99e2e67cd602a4846ef481c03382106f",
-          "sha1": "0f0d6c9f14e6b812550348ddc7f8124fbb3c8bfd",
-          "md5": "79fabca7fabe760b167cdd30f79aad60"
+          "size": 17338,
+          "sha512": "9c71ecebca48af5e5191fa2b04853347cc86711e4d00301c21a52715ea101ae103cb79a1d084793447d18d0aec9e8f65ba83e7a08cbe073d998249ba508390f7",
+          "sha256": "42ab937cbb41444b048b11ec14e5c7e7be4853cf976db0e832fea2a607085e5a",
+          "sha1": "78b65d2e8fa05686d010714e243b31bcd508816c",
+          "md5": "0b4a8c3b33b96ce340adc6fb7d63919b"
         }
       ]
     },
@@ -122,10 +122,10 @@
           "name": "precompose-viewmodel-1.7.0.kotlin_resources.zip",
           "url": "precompose-viewmodel-macosx64-1.7.0-kotlin_resources.kotlin_resources.zip",
           "size": 352,
-          "sha512": "bd07e678422dc4e35e73ff08bceaa61f8835a0e2ca7853e35c27fd7cd56f07336aa8586fa2e1425f74f40290730f98eae01b350f2862e3207319449b991a3d62",
-          "sha256": "b64fe01729baa1e9b62d59a02d8219e2e5e3be0ae407a8206423a0dad0aebf53",
-          "sha1": "574610514e8397e6a4a5e162813a2d72b030d551",
-          "md5": "e7134fb1d041beb015aa7d1c39241df5"
+          "sha512": "d7ee2e10e6243c4098f28a8b2675066498feb27acb416b8884c08e1fdf07922a19d8a2b5200df627959c45f9fb58ee9bec5e26c388871081263fb2730a734fa0",
+          "sha256": "9f495d67dd83e9d8044ef1fd5c5949087e0ef271aa0eabd81d76b9e65c1083d3",
+          "sha1": "b51f9f548f35c4cfa21cec4d427b6c32e7325d22",
+          "md5": "f0d171b4852f468051c88fc84b9f5f2d"
         }
       ]
     },
@@ -167,10 +167,10 @@
           "name": "precompose-viewmodel-macosx64-1.7.0-metadata.jar",
           "url": "precompose-viewmodel-macosx64-1.7.0-metadata.jar",
           "size": 261,
-          "sha512": "68cbbc965440ae072660ef09dfa65181d984f4714d9c0fb5ba600ee1b6453ac87ee35d2ef619a324dfbdbbed5ec5d0cd9de95d4b6e914f16684658411c8ba48e",
-          "sha256": "75a77d4cb3d38113fba50e98a79f070f21a8a782939708f5f14e93d70b69c3a9",
-          "sha1": "7ad9af8b04938738c0e28ba2f7860f4bdee66e4f",
-          "md5": "01af7de5fda1465e16680bbe7acc4e2b"
+          "sha512": "1334af3adfac7ac804a6d6b48c860a9b7f16a9ff121db798bc9309a4c22c5629146836f3bc8b2ba53c0dedf4a9afc8a55435a9998d4d6dddeb32b3bb253a2bfa",
+          "sha256": "1776a497fd8ccfa20db34f6c789467205c0f3ccd0c6b0bf4292689ab86eaabba",
+          "sha1": "2f2a493c793ad53e8ba3c675f3f6b8a6818d0313",
+          "md5": "9fbf7ba04c1a5d3a52403ed80e6d35ab"
         }
       ]
     }

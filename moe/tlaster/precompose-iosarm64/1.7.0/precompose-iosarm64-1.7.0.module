@@ -73,11 +73,11 @@
         {
           "name": "precompose.klib",
           "url": "precompose-iosarm64-1.7.0.klib",
-          "size": 211678,
-          "sha512": "01a2dfe012eba7a5760573c26685ee83c194c314d127ad53ce0cef071e3e957b953999400ef2bf2efa0ab037ec73b95a2b85ed90a4e467e806e7949c40496111",
-          "sha256": "13c5a9beb3f76c5b601a689feb651037426404fdac6f8359dc52415d44a4d23f",
-          "sha1": "17d516676a1ccdc430c4cab506044da04021775e",
-          "md5": "a91a83f9899b4697eeafe1b1d62d18c1"
+          "size": 211644,
+          "sha512": "5c47a8c8a6124711e452af8f5cacdba66e589db97706d85d58ece143637bed8816a6c6fbd337c99408d0a21375b269b50b03f825e865d770e916eaed058d23f9",
+          "sha256": "b08fb5aae777d362489fc6ed76194557eee50a9f99591da9dc69924cc689d96a",
+          "sha1": "98c453e5a604303b7c756aec710f87ba43d256ee",
+          "md5": "e000c25525387077c968d7ae493595db"
         }
       ]
     },
@@ -97,10 +97,10 @@
           "name": "precompose-iosarm64-1.7.0-sources.jar",
           "url": "precompose-iosarm64-1.7.0-sources.jar",
           "size": 37184,
-          "sha512": "cb98ada373b085ef5075506095a7eda391da1fb318b44c0d944c9921814b0102d2a4210245bafe8faf554626171a93343888fc0a4764aa032c8611143046e411",
-          "sha256": "8383b6fb54d0d51a9aba745246d9943ff91a60b8ba6b6510373f03a33aac5228",
-          "sha1": "92cc4f59157336b14e020cccb6ce540261b0d339",
-          "md5": "c57866275cbe1d0068011ac43b66f0ba"
+          "sha512": "89325ac9b40b0af328d6197dcb9b1082965dd5447b245c7f640afe490e5cba8652ce992a4bc9c4cfc2d442ff8492a5db5d67f11b8a653c59bff39b12c1416009",
+          "sha256": "d542099f54ac2a30dbc7f4c0f7cccea93f10056820118fd3f1bcb2c2d5dc8299",
+          "sha1": "e07cbe5b5954d0f35a3d4785c34c16d5f7555596",
+          "md5": "948d01a0c73d2f14250e36fe38465e12"
         }
       ]
     },
@@ -164,10 +164,10 @@
           "name": "precompose-1.7.0.kotlin_resources.zip",
           "url": "precompose-iosarm64-1.7.0-kotlin_resources.kotlin_resources.zip",
           "size": 332,
-          "sha512": "18670e229f861469dd8b913ec065856641132e6a335f47d5432700d89d2db7198f860ed30fd622290fa70877f08c36ae4836c0d6467c0d0ad81b6b0c2dad1e10",
-          "sha256": "1ed065c60d4686af858147bbb6c121d2281df50ddb35d6f76ad44c8470f44303",
-          "sha1": "e85e2a28270423b13e30dc620e91ba7f387d66b3",
-          "md5": "f7d90b0859ff467a147752de0f6599f6"
+          "sha512": "02b6febaa5e5e77e2f96737ad395482cb19cf755cb27e7e7a040c1266828882d0bea6cce1c14a47e5d56705b4fac50c6cfafd5a2bb22955a63f8404c1c418fa6",
+          "sha256": "75f9604341a949953d65bb17d35fa17b4c3b1529663898c5efa5ed1bce3aba16",
+          "sha1": "c1884cb7fa069b9c2743b09d30deba4911568186",
+          "md5": "cf57fa86df7c2db375c874d8bd5c7844"
         }
       ]
     },
@@ -230,10 +230,10 @@
           "name": "precompose-iosarm64-1.7.0-metadata.jar",
           "url": "precompose-iosarm64-1.7.0-metadata.jar",
           "size": 8312,
-          "sha512": "1df78f9e9796a8b96962836d55a9c04ce6da040670d56c2bb61649d993b7fa7ad451e7dd9fffcef0163a4f617db4bedc7a0c9f3af40bad029f6e4b1ca1b4be65",
-          "sha256": "05fcd39a41153a588cb34d00c2365c6e5585e1d85b6d22e7b41be02a442696b0",
-          "sha1": "49e24f51b504ec41e50ddb79cb212f90caa5f792",
-          "md5": "b0d4000943f5d92f5300a44047593536"
+          "sha512": "8ad3190c812342cfbc1ee9e0734fc3670c9a4616ea1412c9572704dcd4d31565f71d957abd5db834f61f3b75788682d420709420076f7b880550bc1801238550",
+          "sha256": "ae6d5fee4f189f7fd6e0f5382f58e1e79aa06c7122fd6cd5bf29fd5db297e7ef",
+          "sha1": "5261d4312f640b3e688aed4f7951e8f5e1712477",
+          "md5": "d89dbd265caed51aac7997dc313259e9"
         }
       ]
     }

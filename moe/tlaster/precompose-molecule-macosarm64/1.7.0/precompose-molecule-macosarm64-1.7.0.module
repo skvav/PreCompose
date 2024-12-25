@@ -52,11 +52,11 @@
         {
           "name": "precompose-molecule.klib",
           "url": "precompose-molecule-macosarm64-1.7.0.klib",
-          "size": 18751,
-          "sha512": "dc7e05d82b140ebae6f75d371055d6b22bfb5f83e010411e78bd23483eec007387c80c2802208f1c948c5b227e34977acd3ae74483b8066db366cb7e81cfb654",
-          "sha256": "597ca509f0bc53bb6524bc4a970834340ade0ec19b8468c5632705eca07b8fd3",
-          "sha1": "54809e373a5886f887ddd1c3290b24939eab762b",
-          "md5": "0867af816123deac54df45f540ff98e1"
+          "size": 18743,
+          "sha512": "7809332e95f5434f1348deb2071e5991f437b25b2fc39b2aa17e96f2e1b24ac37a6deef5c4d551ba922569177c2b5a1a98c3e9fb82006ec0aea08b2d650ab048",
+          "sha256": "09e8c14d537c97967860bc3fbde6e8a9b7a2cdc2d647c5f2f251790cc9b33c2f",
+          "sha1": "26d9b44f158dc1b8cfa747b71e249cf24993848c",
+          "md5": "c22d3c107f9ff091ce07d8b602eb1134"
         }
       ]
     },
@@ -122,10 +122,10 @@
           "name": "precompose-molecule-1.7.0.kotlin_resources.zip",
           "url": "precompose-molecule-macosarm64-1.7.0-kotlin_resources.kotlin_resources.zip",
           "size": 350,
-          "sha512": "af78ff412c3d426a4fd25b1c91e93e480f50e371156e27ffd7ab9e6280185607070cf2ec40b6774b8689bfe1fb46bbc5531ec724b86e1a2ee13e14c46ddd9713",
-          "sha256": "5323dc9830df3dbbc719439b55e41cc078835ba08246c7987406d8165a480241",
-          "sha1": "c42767341e50beb8fd2714988ae0d6fdb4a04300",
-          "md5": "6f045cd15849a76ac381196f63b96588"
+          "sha512": "8ff83e96475789390504381b96554e9de31dab8fcfbf6e0036aea79d3e930471c280b45e8524102d2e3780cd68737bccf1e14b30665c507de2d97b94dfcdd9a3",
+          "sha256": "c4a4630fd97c719c46c7da93751b7095d22f5206b8f3a6653346f600c285880e",
+          "sha1": "ba23bb19030245b8e9a55103123a76d17a05a33c",
+          "md5": "3b4f771c02c255407ffd938895a0467b"
         }
       ]
     },
@@ -167,10 +167,10 @@
           "name": "precompose-molecule-macosarm64-1.7.0-metadata.jar",
           "url": "precompose-molecule-macosarm64-1.7.0-metadata.jar",
           "size": 4918,
-          "sha512": "8a900e991d32cca6fd21809b1bf83d8ca88648e57f2402175e947551ba7e3c3fcc8634728e25a589ab06b12b79d9a3468839eecab798ddaa8f440be5e167c7a3",
-          "sha256": "12af3ce1f1f56b0a2c6c8b15e6ded851cf3b75d8ae256e6951b0c63b233ae7fa",
-          "sha1": "91c35526375368386052b81080c45c91dbdc4f31",
-          "md5": "3996944b791f8161bcd8785d360685ec"
+          "sha512": "a0224fd08b1a4b530adf56c8488af38ba6ce0750dde81ddc9ee3869e6eefc5e672d6145c144c094fa68fd090874adfc5918e0c42572c008f1a315cc03ea1c788",
+          "sha256": "52541dca0b244a0e997f6834606ca535588db8227c4087806a0c8811edb07cd2",
+          "sha1": "51a37999ce0d112993a360279a48c920628e84a0",
+          "md5": "9678aab530535255fa0462f4a40d255a"
         }
       ]
     }

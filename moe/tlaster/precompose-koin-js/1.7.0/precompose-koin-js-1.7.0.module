@@ -44,11 +44,11 @@
         {
           "name": "precompose-koin-js-1.7.0.klib",
           "url": "precompose-koin-js-1.7.0.klib",
-          "size": 3318238,
-          "sha512": "5dfb8888277eef62d31b620a1377dd8ac97aaeeeaab40dcfe48d01c9bec982e48db82767d3ba8e5a073b228bc8d4f60ba36a3a79c340c66948009b2cd2886e86",
-          "sha256": "c7676959310983b26d13c63f261bcbb0eec104d5705e223b59134da81d7a3f8d",
-          "sha1": "d8b150a70d452330a224d7a3616c99869f4a3020",
-          "md5": "636cefcb228057eb3341f13778b52b73"
+          "size": 3318231,
+          "sha512": "8516e392c5085c89af5ac896a44ec411f249d43424cc21acda897bec259c27a23513790e00104c50a24e639e3db66eebcabd203cceb85d06e65fc5c38f98df1d",
+          "sha256": "e7095427679f27f5b2baaf82f6dfa92d82bcb93a53a3fe3d23162c8d6d4cb1a8",
+          "sha1": "b7ce8419a73e077cc1480a418eec9bce4342ef32",
+          "md5": "37000d392c6c2c8da3f747f66d717129"
         }
       ]
     },
@@ -116,11 +116,11 @@
         {
           "name": "precompose-koin-js-1.7.0.klib",
           "url": "precompose-koin-js-1.7.0.klib",
-          "size": 3318238,
-          "sha512": "5dfb8888277eef62d31b620a1377dd8ac97aaeeeaab40dcfe48d01c9bec982e48db82767d3ba8e5a073b228bc8d4f60ba36a3a79c340c66948009b2cd2886e86",
-          "sha256": "c7676959310983b26d13c63f261bcbb0eec104d5705e223b59134da81d7a3f8d",
-          "sha1": "d8b150a70d452330a224d7a3616c99869f4a3020",
-          "md5": "636cefcb228057eb3341f13778b52b73"
+          "size": 3318231,
+          "sha512": "8516e392c5085c89af5ac896a44ec411f249d43424cc21acda897bec259c27a23513790e00104c50a24e639e3db66eebcabd203cceb85d06e65fc5c38f98df1d",
+          "sha256": "e7095427679f27f5b2baaf82f6dfa92d82bcb93a53a3fe3d23162c8d6d4cb1a8",
+          "sha1": "b7ce8419a73e077cc1480a418eec9bce4342ef32",
+          "md5": "37000d392c6c2c8da3f747f66d717129"
         }
       ]
     },
@@ -214,10 +214,10 @@
           "name": "precompose-koin-1.7.0.kotlin_resources.zip",
           "url": "precompose-koin-js-1.7.0-kotlin_resources.kotlin_resources.zip",
           "size": 342,
-          "sha512": "d8c3a6b257bdb2ddf4e833608679e09d16ce09b53df83bd5cdd37ae4938aeb33be30e462cea215fb230169928ae8a3fc2eacadb336bceb7fbd136f001f0d4b05",
-          "sha256": "23de89fa17e94b4d40041fe1c09090e11e914325abab0cd705c1fe15d18120ad",
-          "sha1": "e61ea712759c426eb83bdca000157cbedeaf3f7b",
-          "md5": "1ed1d31cd10ca9a3bd8dfc04a44dd780"
+          "sha512": "5cacdeaba8e9903cb0501cd9a44a9fcb655fcaf8317a3b87ef1a342f4fb7a590f848cc9cf00e77451b5e7609109360bcda1761150356b9eec5b173a099d7d689",
+          "sha256": "5a58973e9fab7fb07e98f9dca1c9f2eba23262d43ccd79dd34e233a58500cfb2",
+          "sha1": "4b400b1eb8c3074fb9b86c81e60b86c3eb82988f",
+          "md5": "b232779e4967d51fb3e5fa5b9450c807"
         }
       ]
     }
