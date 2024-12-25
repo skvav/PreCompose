@@ -15,7 +15,7 @@ internal class RouteMatch {
             pathMap[keys[i]] = vars[i]
         }
         for (i in 0 until size) {
-            vars.removeFirst()
+            vars.removeAt(0)
         }
     }
 
@@ -32,7 +32,7 @@ internal class RouteMatch {
 
     fun pop() {
         if (vars.isNotEmpty()) {
-            vars.removeLast()
+            vars.removeAt(vars.size - 1)
         }
     }
 
