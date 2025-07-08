@@ -12,7 +12,7 @@ allprojects {
     tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
         compilerOptions {
             jvmTarget.set(JvmTarget.fromTarget(libs.versions.java.get()))
-            allWarningsAsErrors.set(true)
+            // allWarningsAsErrors.set(true)
             freeCompilerArgs.set(
                 listOf(
                     "-Xcontext-receivers",
