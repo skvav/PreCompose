@@ -3,11 +3,12 @@
   <groupId>moe.tlaster</groupId>
   <artifactId>precompose-molecule-jvm</artifactId>
   <versioning>
-    <latest>1.7.0</latest>
-    <release>1.7.0</release>
+    <latest>1.8.2</latest>
+    <release>1.8.2</release>
     <versions>
       <version>1.7.0</version>
+      <version>1.8.2</version>
     </versions>
-    <lastUpdated>20241225090942</lastUpdated>
+    <lastUpdated>20250708081549</lastUpdated>
   </versioning>
 </metadata>

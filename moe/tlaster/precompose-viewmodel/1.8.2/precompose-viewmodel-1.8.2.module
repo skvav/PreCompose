@@ -1,0 +1,718 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "moe.tlaster",
+    "module": "precompose-viewmodel",
+    "version": "1.8.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-viewmodel-metadata-1.8.2.jar",
+          "url": "precompose-viewmodel-1.8.2.jar",
+          "size": 4024,
+          "sha512": "ebf1c73a9328bba9083528f0e85af744eabbb7f9cf491bfa5647164d62bfcfb203ebb4dc1bb08e1ad07a4e7ddd8dbb38929035219bb84082f252312e1accafb1",
+          "sha256": "4480b79b4cc5c30de9c1057b5e3205cac6cf348592339e79a7351f4e03bc9bdc",
+          "sha1": "90ffe34615af3a71247d456a11e65660a6d56d1e",
+          "md5": "d2867eb820770b5a21af091b5f225877"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "precompose-viewmodel-kotlin-1.8.2-sources.jar",
+          "url": "precompose-viewmodel-1.8.2-sources.jar",
+          "size": 3135,
+          "sha512": "aaae553ec322975a776b4c096de0c481fd3ab936e519482937c4d45184f6d65ba08632f4a60ec3f0f9a15bd3e763158a6b6de5c92aaa9ceb4bed70e44204fb78",
+          "sha256": "f5c471443c79f7f56119b57c42d47942eebd8c72ae725d47f9511833dcdfea01",
+          "sha1": "ec03f595745df665ab99e3dfeadc8c89f951d837",
+          "md5": "73d4f385dcf64a6d8f6bd14b85da17b8"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-android-debug/1.8.2/precompose-viewmodel-android-debug-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-android-debug",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-android-debug/1.8.2/precompose-viewmodel-android-debug-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-android-debug",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "debugSourcesElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-android-debug/1.8.2/precompose-viewmodel-android-debug-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-android-debug",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-android/1.8.2/precompose-viewmodel-android-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-android",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-android/1.8.2/precompose-viewmodel-android-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-android",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-android/1.8.2/precompose-viewmodel-android-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-android",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-iosarm64/1.8.2/precompose-viewmodel-iosarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-iosarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-iosarm64/1.8.2/precompose-viewmodel-iosarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-iosarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-iosarm64/1.8.2/precompose-viewmodel-iosarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-iosarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-iosarm64/1.8.2/precompose-viewmodel-iosarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-iosarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-iossimulatorarm64/1.8.2/precompose-viewmodel-iossimulatorarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-iossimulatorarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-iossimulatorarm64/1.8.2/precompose-viewmodel-iossimulatorarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-iossimulatorarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-iossimulatorarm64/1.8.2/precompose-viewmodel-iossimulatorarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-iossimulatorarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-iossimulatorarm64/1.8.2/precompose-viewmodel-iossimulatorarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-iossimulatorarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-iosx64/1.8.2/precompose-viewmodel-iosx64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-iosx64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-iosx64/1.8.2/precompose-viewmodel-iosx64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-iosx64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-iosx64/1.8.2/precompose-viewmodel-iosx64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-iosx64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-iosx64/1.8.2/precompose-viewmodel-iosx64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-iosx64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-js/1.8.2/precompose-viewmodel-js-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-js",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-js/1.8.2/precompose-viewmodel-js-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-js",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-js/1.8.2/precompose-viewmodel-js-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-js",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "jsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-js/1.8.2/precompose-viewmodel-js-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-js",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-jvm/1.8.2/precompose-viewmodel-jvm-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-jvm",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-jvm/1.8.2/precompose-viewmodel-jvm-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-jvm",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-jvm/1.8.2/precompose-viewmodel-jvm-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-jvm",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-macosarm64/1.8.2/precompose-viewmodel-macosarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-macosarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-macosarm64/1.8.2/precompose-viewmodel-macosarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-macosarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-macosarm64/1.8.2/precompose-viewmodel-macosarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-macosarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-macosarm64/1.8.2/precompose-viewmodel-macosarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-macosarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-macosx64/1.8.2/precompose-viewmodel-macosx64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-macosx64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-macosx64/1.8.2/precompose-viewmodel-macosx64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-macosx64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "macosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-macosx64/1.8.2/precompose-viewmodel-macosx64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-macosx64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-macosx64/1.8.2/precompose-viewmodel-macosx64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-macosx64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-wasm-js/1.8.2/precompose-viewmodel-wasm-js-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-wasm-js",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-wasm-js/1.8.2/precompose-viewmodel-wasm-js-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-wasm-js",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-wasm-js/1.8.2/precompose-viewmodel-wasm-js-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-wasm-js",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../precompose-viewmodel-wasm-js/1.8.2/precompose-viewmodel-wasm-js-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-viewmodel-wasm-js",
+        "version": "1.8.2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose-viewmodel/1.8.2/precompose-viewmodel-1.8.2.module",
+    "group": "moe.tlaster",
+    "module": "precompose-viewmodel",
+    "version": "1.8.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-viewmodel-iosSimulatorArm64Main-1.8.2.klib",
+          "url": "precompose-viewmodel-iossimulatorarm64-1.8.2.klib",
+          "size": 17507,
+          "sha512": "0e0ab22313faeefac592a22410e7f6c32bfd02debd68a3e1f40d067978839cdd84ed666566e12db5a898caf8f3d1be4d89e3f5f3e9420dbb0f715eac88f8b60f",
+          "sha256": "694ff22433c1f4ac7624ae09f43dabf777e751908891a10be23d6dcc4bb206ad",
+          "sha1": "ad9e20bc3fdaf2ebbae0c1590f530d64fe6feb5a",
+          "md5": "54ac4deef689d14c4827f12ca2b2e6cf"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "precompose-viewmodel-iossimulatorarm64-1.8.2-sources.jar",
+          "url": "precompose-viewmodel-iossimulatorarm64-1.8.2-sources.jar",
+          "size": 3135,
+          "sha512": "aaae553ec322975a776b4c096de0c481fd3ab936e519482937c4d45184f6d65ba08632f4a60ec3f0f9a15bd3e763158a6b6de5c92aaa9ceb4bed70e44204fb78",
+          "sha256": "f5c471443c79f7f56119b57c42d47942eebd8c72ae725d47f9511833dcdfea01",
+          "sha1": "ec03f595745df665ab99e3dfeadc8c89f951d837",
+          "md5": "73d4f385dcf64a6d8f6bd14b85da17b8"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-viewmodel-1.8.2.kotlin_resources.zip",
+          "url": "precompose-viewmodel-iossimulatorarm64-1.8.2-kotlin_resources.kotlin_resources.zip",
+          "size": 352,
+          "sha512": "7ae2f28a31a5248f4d1a3ca08bc5453ba2b0f8b2a8dc3dab474b52008fb9494a614a643fdb592b2399a1182c893d84d52733fffc760e808d404cbb2763f3a24e",
+          "sha256": "40604747c1292e5300f3af17a1a27947c9fc8ee0c8af913a32159feabfc773bc",
+          "sha1": "153d474e70e98492386209e5b8cb73fd8c0ab762",
+          "md5": "99f943a56b244b634c973ce0b15b707c"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-viewmodel-iossimulatorarm64-1.8.2-metadata.jar",
+          "url": "precompose-viewmodel-iossimulatorarm64-1.8.2-metadata.jar",
+          "size": 261,
+          "sha512": "78c3ffe1dfe21915b674738727a7df8eafb0daaa45ce4dd7f2483cc1d6b8940efbe4546492c138dd3463091e5eadcba7d6b9b1d1f3cca48f2baff4f206e69141",
+          "sha256": "aba73fc5dfd88f294ffbaa16f2138fbcbd10d11bd508a426465d17e1afd61032",
+          "sha1": "e784a249db5d26bfb986119927bb087d1eaf6f6d",
+          "md5": "b4db1179820d558f49ff0f5e6170b99c"
+        }
+      ]
+    }
+  ]
+}

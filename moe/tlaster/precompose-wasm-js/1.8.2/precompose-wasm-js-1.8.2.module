@@ -1,0 +1,211 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose/1.8.2/precompose-1.8.2.module",
+    "group": "moe.tlaster",
+    "module": "precompose",
+    "version": "1.8.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-wasm-js-1.8.2.klib",
+          "url": "precompose-wasm-js-1.8.2.klib",
+          "size": 207481,
+          "sha512": "dfa7ab47652de306ac882eba76b075cb681e887637e909b2c10a6c8036ddd909978e9b227ba6b8e946079329f6758bdbcc2a4e77ca47e52a3bf05ee75414d0f5",
+          "sha256": "2a0971d8a70a9f9659e2b002e4c006adccbffd6225362b3367e9f156ff4c888e",
+          "sha1": "077c5d85f5b97bfdb7b7559ab590a19f71d17d36",
+          "md5": "e0bfbcd6081f18982aedc5f9af143cea"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-wasm-js-1.8.2.klib",
+          "url": "precompose-wasm-js-1.8.2.klib",
+          "size": 207481,
+          "sha512": "dfa7ab47652de306ac882eba76b075cb681e887637e909b2c10a6c8036ddd909978e9b227ba6b8e946079329f6758bdbcc2a4e77ca47e52a3bf05ee75414d0f5",
+          "sha256": "2a0971d8a70a9f9659e2b002e4c006adccbffd6225362b3367e9f156ff4c888e",
+          "sha1": "077c5d85f5b97bfdb7b7559ab590a19f71d17d36",
+          "md5": "e0bfbcd6081f18982aedc5f9af143cea"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "precompose-wasm-js-1.8.2-sources.jar",
+          "url": "precompose-wasm-js-1.8.2-sources.jar",
+          "size": 36106,
+          "sha512": "c8e18a1f3eb0c6741d0ad7a130384c76dceb81330272cac1bbc8e1bb10c3834f3386ec68acfc2df74d4ecc3399663e42f1e1bebff8359e52d2ece00cb7562197",
+          "sha256": "f8f07d841817356e77b0254338ac2d5a040e69a5ce977e6ca7d83d3c68371885",
+          "sha1": "eb0027956ef4c3d552e60f717af81cbbad2b955a",
+          "md5": "82172b5e2a777e066a40dde940319582"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-1.8.2.kotlin_resources.zip",
+          "url": "precompose-wasm-js-1.8.2-kotlin_resources.kotlin_resources.zip",
+          "size": 332,
+          "sha512": "4cc8d2948628101aa24a96b1d6fbc1d9581d3600e992d59ee1132185c914738a2f6291600c810b6524a3ff4d8a41b1dc98cc6523a80924e455ed75e345f1dfc2",
+          "sha256": "22d598124d8aca2c81fdde5baaa17af5613a0e3d36b9aaaea0c92023f5e0e092",
+          "sha1": "f228b1f9badff4481cc82d34a54dc5ab32d3870d",
+          "md5": "ef23ac5c5cda14e62e61c0665c8c7a47"
+        }
+      ]
+    }
+  ]
+}

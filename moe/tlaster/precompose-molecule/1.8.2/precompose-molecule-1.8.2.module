@@ -1,0 +1,650 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "moe.tlaster",
+    "module": "precompose-molecule",
+    "version": "1.8.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-molecule-metadata-1.8.2.jar",
+          "url": "precompose-molecule-1.8.2.jar",
+          "size": 3203,
+          "sha512": "2e51bb4ee7359b905a07ece5ea12023c76c29da4f7834e73c790ef5418636ada4fdf585cedeb47dbb743b11cd7c69c234cb5e446ffd6a1ae3406adfd1a4b3a59",
+          "sha256": "709efc9ae21184d943137d535bf85119ad161cdd6c0c9820fd374fbaa24ebf5d",
+          "sha1": "07e3c4cda6a889560050f6a3e44e8a9c3a57f905",
+          "md5": "ca91223318cdc050f4643b6b53779eb8"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "precompose-molecule-kotlin-1.8.2-sources.jar",
+          "url": "precompose-molecule-1.8.2-sources.jar",
+          "size": 4447,
+          "sha512": "67870407aefa0c0a0f104d8986944f5728bf2ffe7aeaeca7111a06c58816737f0172dd816dffc568270711b1ac1905d91f726225a4e3fb99b30ea110eac83e0c",
+          "sha256": "3555203a26a86eec0277bad63396f2c9de53125ae1a15022a6f8b9127a05591c",
+          "sha1": "a7684a7de80af7add3e716b95db6f0b1c4bd939f",
+          "md5": "c671997ad470b0a601bb6105cdb44d0d"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-android-debug/1.8.2/precompose-molecule-android-debug-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-android-debug",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-android-debug/1.8.2/precompose-molecule-android-debug-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-android-debug",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "debugSourcesElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-android-debug/1.8.2/precompose-molecule-android-debug-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-android-debug",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-android/1.8.2/precompose-molecule-android-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-android",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-android/1.8.2/precompose-molecule-android-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-android",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-android/1.8.2/precompose-molecule-android-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-android",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-iosarm64/1.8.2/precompose-molecule-iosarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-iosarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-iosarm64/1.8.2/precompose-molecule-iosarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-iosarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-iosarm64/1.8.2/precompose-molecule-iosarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-iosarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-iosarm64/1.8.2/precompose-molecule-iosarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-iosarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-iossimulatorarm64/1.8.2/precompose-molecule-iossimulatorarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-iossimulatorarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-iossimulatorarm64/1.8.2/precompose-molecule-iossimulatorarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-iossimulatorarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-iossimulatorarm64/1.8.2/precompose-molecule-iossimulatorarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-iossimulatorarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-iossimulatorarm64/1.8.2/precompose-molecule-iossimulatorarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-iossimulatorarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-iosx64/1.8.2/precompose-molecule-iosx64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-iosx64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-iosx64/1.8.2/precompose-molecule-iosx64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-iosx64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-iosx64/1.8.2/precompose-molecule-iosx64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-iosx64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-iosx64/1.8.2/precompose-molecule-iosx64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-iosx64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-js/1.8.2/precompose-molecule-js-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-js",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-js/1.8.2/precompose-molecule-js-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-js",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-js/1.8.2/precompose-molecule-js-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-js",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "jsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-js/1.8.2/precompose-molecule-js-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-js",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-jvm/1.8.2/precompose-molecule-jvm-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-jvm",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-jvm/1.8.2/precompose-molecule-jvm-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-jvm",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-jvm/1.8.2/precompose-molecule-jvm-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-jvm",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-macosarm64/1.8.2/precompose-molecule-macosarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-macosarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-macosarm64/1.8.2/precompose-molecule-macosarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-macosarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-macosarm64/1.8.2/precompose-molecule-macosarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-macosarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-macosarm64/1.8.2/precompose-molecule-macosarm64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-macosarm64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-macosx64/1.8.2/precompose-molecule-macosx64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-macosx64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-macosx64/1.8.2/precompose-molecule-macosx64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-macosx64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "macosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-macosx64/1.8.2/precompose-molecule-macosx64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-macosx64",
+        "version": "1.8.2"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../precompose-molecule-macosx64/1.8.2/precompose-molecule-macosx64-1.8.2.module",
+        "group": "moe.tlaster",
+        "module": "precompose-molecule-macosx64",
+        "version": "1.8.2"
+      }
+    }
+  ]
+}

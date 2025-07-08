@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose-viewmodel/1.8.2/precompose-viewmodel-1.8.2.module",
+    "group": "moe.tlaster",
+    "module": "precompose-viewmodel",
+    "version": "1.8.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-viewmodel-macosArm64Main-1.8.2.klib",
+          "url": "precompose-viewmodel-macosarm64-1.8.2.klib",
+          "size": 17426,
+          "sha512": "b9e37da4ecc4fd9b27b020621b675b142b3c0626653440cd29cc001e1e930dc68aaff271f5492854228c07268803f288c733492c624ead40431f06884e9cd81d",
+          "sha256": "aa9f32696ec196d9bee61634f75415adfd8569e59b2021130b7aa8a26570399a",
+          "sha1": "5c7070b856333c85d5a01fcecbe65844d25aaba3",
+          "md5": "0ca9065de4c7c7dfb390cd7bf1812d15"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "precompose-viewmodel-macosarm64-1.8.2-sources.jar",
+          "url": "precompose-viewmodel-macosarm64-1.8.2-sources.jar",
+          "size": 3135,
+          "sha512": "aaae553ec322975a776b4c096de0c481fd3ab936e519482937c4d45184f6d65ba08632f4a60ec3f0f9a15bd3e763158a6b6de5c92aaa9ceb4bed70e44204fb78",
+          "sha256": "f5c471443c79f7f56119b57c42d47942eebd8c72ae725d47f9511833dcdfea01",
+          "sha1": "ec03f595745df665ab99e3dfeadc8c89f951d837",
+          "md5": "73d4f385dcf64a6d8f6bd14b85da17b8"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-viewmodel-1.8.2.kotlin_resources.zip",
+          "url": "precompose-viewmodel-macosarm64-1.8.2-kotlin_resources.kotlin_resources.zip",
+          "size": 352,
+          "sha512": "c6df6c0fef7bb08f18b5437859884e5f9971c8ab7200936d95728dbaf2b5539a2e76e0eba0870b351add4949b1c35d4d42eae94ec619de60c5bdba2c38413635",
+          "sha256": "66ab4f0a2cac8bced2aedf2e29486dc81c2f8632f11d9ade5957bf9cbd632297",
+          "sha1": "11cb728d531f0e91024a4e1d3370ba9d2ca73651",
+          "md5": "1c77e82821a645f0f61b58829a11db81"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-viewmodel-macosarm64-1.8.2-metadata.jar",
+          "url": "precompose-viewmodel-macosarm64-1.8.2-metadata.jar",
+          "size": 261,
+          "sha512": "78c3ffe1dfe21915b674738727a7df8eafb0daaa45ce4dd7f2483cc1d6b8940efbe4546492c138dd3463091e5eadcba7d6b9b1d1f3cca48f2baff4f206e69141",
+          "sha256": "aba73fc5dfd88f294ffbaa16f2138fbcbd10d11bd508a426465d17e1afd61032",
+          "sha1": "e784a249db5d26bfb986119927bb087d1eaf6f6d",
+          "md5": "b4db1179820d558f49ff0f5e6170b99c"
+        }
+      ]
+    }
+  ]
+}

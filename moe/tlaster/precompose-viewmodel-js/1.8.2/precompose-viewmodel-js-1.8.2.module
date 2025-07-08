@@ -1,0 +1,183 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose-viewmodel/1.8.2/precompose-viewmodel-1.8.2.module",
+    "group": "moe.tlaster",
+    "module": "precompose-viewmodel",
+    "version": "1.8.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-viewmodel-js-1.8.2.klib",
+          "url": "precompose-viewmodel-js-1.8.2.klib",
+          "size": 3430271,
+          "sha512": "888e471ea4004d3ff658d0d57d653f5c7d4af67a02e1bcb1b4dcba8c18041d260cff2bb66c305db5372d8a5968f7323f82e4dcbe9307ec5467ff6f0b6c51f18d",
+          "sha256": "7008ff6e3f155b604d32432d3cf029edcbd3b730526f9e87560f023ae641b63d",
+          "sha1": "d8a71e35bceb3808860e7b7b99bfff4281abb75e",
+          "md5": "f36cf4932738c5f0286817fe9faf0c18"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-viewmodel-js-1.8.2.klib",
+          "url": "precompose-viewmodel-js-1.8.2.klib",
+          "size": 3430271,
+          "sha512": "888e471ea4004d3ff658d0d57d653f5c7d4af67a02e1bcb1b4dcba8c18041d260cff2bb66c305db5372d8a5968f7323f82e4dcbe9307ec5467ff6f0b6c51f18d",
+          "sha256": "7008ff6e3f155b604d32432d3cf029edcbd3b730526f9e87560f023ae641b63d",
+          "sha1": "d8a71e35bceb3808860e7b7b99bfff4281abb75e",
+          "md5": "f36cf4932738c5f0286817fe9faf0c18"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "precompose-viewmodel-js-1.8.2-sources.jar",
+          "url": "precompose-viewmodel-js-1.8.2-sources.jar",
+          "size": 3135,
+          "sha512": "aaae553ec322975a776b4c096de0c481fd3ab936e519482937c4d45184f6d65ba08632f4a60ec3f0f9a15bd3e763158a6b6de5c92aaa9ceb4bed70e44204fb78",
+          "sha256": "f5c471443c79f7f56119b57c42d47942eebd8c72ae725d47f9511833dcdfea01",
+          "sha1": "ec03f595745df665ab99e3dfeadc8c89f951d837",
+          "md5": "73d4f385dcf64a6d8f6bd14b85da17b8"
+        }
+      ]
+    },
+    {
+      "name": "jsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-viewmodel-1.8.2.kotlin_resources.zip",
+          "url": "precompose-viewmodel-js-1.8.2-kotlin_resources.kotlin_resources.zip",
+          "size": 352,
+          "sha512": "c9c440e2b8513040382bfb177a8516ce18114da3ac29ba5545cf64e4fbd0a9e5d3a61898178c6f54766472344aec7f4a674bf44a438596131f7825e69e6297c4",
+          "sha256": "28a0d6c91893090a9c778241b8fb46d476f0bf99fd9252277b0f6e2cc309f7ef",
+          "sha1": "0c062becac1d002a5cdbc1483f81d3635a2ae4b6",
+          "md5": "1e45671fe8a1a642a8c7f1b7b6e048be"
+        }
+      ]
+    }
+  ]
+}
