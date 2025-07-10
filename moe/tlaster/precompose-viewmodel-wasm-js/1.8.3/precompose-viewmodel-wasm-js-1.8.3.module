@@ -1,0 +1,162 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose-viewmodel/1.8.3/precompose-viewmodel-1.8.3.module",
+    "group": "moe.tlaster",
+    "module": "precompose-viewmodel",
+    "version": "1.8.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-viewmodel-wasm-js-1.8.3.klib",
+          "url": "precompose-viewmodel-wasm-js-1.8.3.klib",
+          "size": 17377,
+          "sha512": "034caf5331fd23a18f23d47f82eb66e78276fa6d54fde3d1351bcf8691bfa7e97be9eb00ac9acdc01c4fbd0e588559e4b432c60867621615da1a2b049cb5980a",
+          "sha256": "595825c2271c7f2f2b005946e81ce09f7f4b9db52bdbc6ef33204ead6c85a242",
+          "sha1": "e04ddd49fda680e2a48c0c7daa4d4224db539b0b",
+          "md5": "6241bf5c912f415d1561fb3a7617c30c"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-viewmodel-wasm-js-1.8.3.klib",
+          "url": "precompose-viewmodel-wasm-js-1.8.3.klib",
+          "size": 17377,
+          "sha512": "034caf5331fd23a18f23d47f82eb66e78276fa6d54fde3d1351bcf8691bfa7e97be9eb00ac9acdc01c4fbd0e588559e4b432c60867621615da1a2b049cb5980a",
+          "sha256": "595825c2271c7f2f2b005946e81ce09f7f4b9db52bdbc6ef33204ead6c85a242",
+          "sha1": "e04ddd49fda680e2a48c0c7daa4d4224db539b0b",
+          "md5": "6241bf5c912f415d1561fb3a7617c30c"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "precompose-viewmodel-wasm-js-1.8.3-sources.jar",
+          "url": "precompose-viewmodel-wasm-js-1.8.3-sources.jar",
+          "size": 3135,
+          "sha512": "aaae553ec322975a776b4c096de0c481fd3ab936e519482937c4d45184f6d65ba08632f4a60ec3f0f9a15bd3e763158a6b6de5c92aaa9ceb4bed70e44204fb78",
+          "sha256": "f5c471443c79f7f56119b57c42d47942eebd8c72ae725d47f9511833dcdfea01",
+          "sha1": "ec03f595745df665ab99e3dfeadc8c89f951d837",
+          "md5": "73d4f385dcf64a6d8f6bd14b85da17b8"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-viewmodel-1.8.3.kotlin_resources.zip",
+          "url": "precompose-viewmodel-wasm-js-1.8.3-kotlin_resources.kotlin_resources.zip",
+          "size": 352,
+          "sha512": "2910ad55240bd65df1020358ea39cb8ec151b6569640b1e7fcd60043d11f77971d3cde5d811533ddd417e1cd2b457be870dca23f6f6309817daf645b04774d0c",
+          "sha256": "1771d24394e0b8fa33dbe072206af365a43fcc32c56a45814596065b4c2ab0f6",
+          "sha1": "eeb7223bbc2c34d16613c69999471fc16d1f6dd6",
+          "md5": "25090469be69dd513b8d619fe6988c4c"
+        }
+      ]
+    }
+  ]
+}

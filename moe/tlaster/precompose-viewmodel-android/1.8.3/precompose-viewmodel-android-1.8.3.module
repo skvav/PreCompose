@@ -1,0 +1,184 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose-viewmodel/1.8.3/precompose-viewmodel-1.8.3.module",
+    "group": "moe.tlaster",
+    "module": "precompose-viewmodel",
+    "version": "1.8.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.9.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-viewmodel-release.aar",
+          "url": "precompose-viewmodel-android-1.8.3.aar",
+          "size": 12379,
+          "sha512": "b65b0a7ad118b769de60ab9d331e3eb43971f37f6cf51eda830852e5a4ccd0bd47b257911dd4c28372dfa1b6e1d650598673640746d783642514d92d5de7c64c",
+          "sha256": "540ca228eeb9aefd974e03ad82d2cea858332b032965ddb805b7f2e44619eeef",
+          "sha1": "9faea6bbb03b1fb0fbe54465317beecfb58019bb",
+          "md5": "c7eb168a401ab607e4111fb4ccf1767f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.9.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-viewmodel-release.aar",
+          "url": "precompose-viewmodel-android-1.8.3.aar",
+          "size": 12379,
+          "sha512": "b65b0a7ad118b769de60ab9d331e3eb43971f37f6cf51eda830852e5a4ccd0bd47b257911dd4c28372dfa1b6e1d650598673640746d783642514d92d5de7c64c",
+          "sha256": "540ca228eeb9aefd974e03ad82d2cea858332b032965ddb805b7f2e44619eeef",
+          "sha1": "9faea6bbb03b1fb0fbe54465317beecfb58019bb",
+          "md5": "c7eb168a401ab607e4111fb4ccf1767f"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "precompose-viewmodel-android-1.8.3-sources.jar",
+          "url": "precompose-viewmodel-android-1.8.3-sources.jar",
+          "size": 3135,
+          "sha512": "aaae553ec322975a776b4c096de0c481fd3ab936e519482937c4d45184f6d65ba08632f4a60ec3f0f9a15bd3e763158a6b6de5c92aaa9ceb4bed70e44204fb78",
+          "sha256": "f5c471443c79f7f56119b57c42d47942eebd8c72ae725d47f9511833dcdfea01",
+          "sha1": "ec03f595745df665ab99e3dfeadc8c89f951d837",
+          "md5": "73d4f385dcf64a6d8f6bd14b85da17b8"
+        }
+      ]
+    }
+  ]
+}

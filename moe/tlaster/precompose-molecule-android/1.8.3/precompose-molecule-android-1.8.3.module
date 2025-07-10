@@ -1,0 +1,205 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose-molecule/1.8.3/precompose-molecule-1.8.3.module",
+    "group": "moe.tlaster",
+    "module": "precompose-molecule",
+    "version": "1.8.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.9.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-molecule-release.aar",
+          "url": "precompose-molecule-android-1.8.3.aar",
+          "size": 19036,
+          "sha512": "0ab44a8c4e3af06be31aaaf91e6a4481335387c5f9c62e25eebe2b5a36006e7184951bd857929c947b01a8a6cd55a52cade27d70c0fa4f6e657f47b1cb10ee67",
+          "sha256": "a21b0cddacb844b1e6d1eb3ac957bc81087f5e5c6c254de95eee2f37249d5bea",
+          "sha1": "b4c4a59e22a81cc02a53189a751618cecf611493",
+          "md5": "17871fbc50171238f8dde5d026c364b3"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.9.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-molecule-release.aar",
+          "url": "precompose-molecule-android-1.8.3.aar",
+          "size": 19036,
+          "sha512": "0ab44a8c4e3af06be31aaaf91e6a4481335387c5f9c62e25eebe2b5a36006e7184951bd857929c947b01a8a6cd55a52cade27d70c0fa4f6e657f47b1cb10ee67",
+          "sha256": "a21b0cddacb844b1e6d1eb3ac957bc81087f5e5c6c254de95eee2f37249d5bea",
+          "sha1": "b4c4a59e22a81cc02a53189a751618cecf611493",
+          "md5": "17871fbc50171238f8dde5d026c364b3"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "precompose-molecule-android-1.8.3-sources.jar",
+          "url": "precompose-molecule-android-1.8.3-sources.jar",
+          "size": 3484,
+          "sha512": "2d8587a066ed62e386b2f0745de48c2cf1496126cb4b23569d41f59d7eeaa37b2afd871869ed55a86f2c5b74d4f6181ab92d19ccd7e0d2c640a772091bad5dac",
+          "sha256": "4ebf2ddf5ea402b136d3416ef255ebe0c73c23ab680a2cc0c2de7e7da39f63ba",
+          "sha1": "43b7eab0488f88104cc760774a8f1df8632e41b7",
+          "md5": "5b08c689a5ed84e02edf83d7337ea2f6"
+        }
+      ]
+    }
+  ]
+}

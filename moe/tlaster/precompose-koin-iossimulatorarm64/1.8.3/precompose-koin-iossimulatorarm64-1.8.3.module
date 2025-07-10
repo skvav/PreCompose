@@ -1,0 +1,241 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose-koin/1.8.3/precompose-koin-1.8.3.module",
+    "group": "moe.tlaster",
+    "module": "precompose-koin",
+    "version": "1.8.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.3"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose-viewmodel",
+          "version": {
+            "requires": "1.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-koin-iosSimulatorArm64Main-1.8.3.klib",
+          "url": "precompose-koin-iossimulatorarm64-1.8.3.klib",
+          "size": 9092,
+          "sha512": "b31ba6809d9f51cfddad9ad5b8128aba4466d9a24f378d3e267847f14ef993e30de5c6fb23941a382e78c14af69d0581def380bdee3109a075bb9db9703f1ccd",
+          "sha256": "c6614f02115a725c9383f6583a6c2ae5be73123d6fb5836ae2d6b70a0f76d390",
+          "sha1": "510537445cab8ba32eb82c09849914d4a8f91b98",
+          "md5": "273234eb3e939d58d4fab77e7fda8be5"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "precompose-koin-iossimulatorarm64-1.8.3-sources.jar",
+          "url": "precompose-koin-iossimulatorarm64-1.8.3-sources.jar",
+          "size": 1559,
+          "sha512": "194d8e9967a4f37928679f4ac73d59a9a2f913cd8834f4f4349b05fc12f11ca76a4946ea4dea31b971ab3c7fb9cdaff86d10c983eb1d689b262ba73f7b3deba6",
+          "sha256": "12dbb78fca3a1a7bb05bb06087206fa2829964d4b0b9252bf439f409c45a3e5d",
+          "sha1": "70ef88a6f223a3104078dedcc81cf04ddf37ea23",
+          "md5": "c43ad676a52f1676a9c2f09640b01986"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.3"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose-viewmodel",
+          "version": {
+            "requires": "1.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-koin-1.8.3.kotlin_resources.zip",
+          "url": "precompose-koin-iossimulatorarm64-1.8.3-kotlin_resources.kotlin_resources.zip",
+          "size": 342,
+          "sha512": "28d275c9dbc0e19e95f352cb528ac9cb4d4f83e35120512e519419fae28205cd5317b07f8d20d1d9982f45f4807dc8bbd3e89c8444903bd733250dadcf723445",
+          "sha256": "2a51eab4f07e3f4809836571ccb76afe98d7a8cc6fd4fdb1c6751fa9ed4a8db5",
+          "sha1": "d3acf5fb4e59f64d5a290139057a0301faae82c5",
+          "md5": "37c383012b2062bbe137813077bdab21"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.3"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose-viewmodel",
+          "version": {
+            "requires": "1.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-koin-iossimulatorarm64-1.8.3-metadata.jar",
+          "url": "precompose-koin-iossimulatorarm64-1.8.3-metadata.jar",
+          "size": 261,
+          "sha512": "c5894eeb5a8f8085edbabe9c9b4411f6d0df680c2757692fa6f3d4f4270ac211db34f2447daf368a3f85af901fb0ca175d7fa98d330db913040db92e520b1532",
+          "sha256": "35f59a708e6a13d809c420cfee3f2477c4bc7d339f8438044afd1a094f4ebff8",
+          "sha1": "b41d39f3035f7c057a9469ee42444450a03e1e29",
+          "md5": "37c8473a03bf213b6f4b9758a969a0ca"
+        }
+      ]
+    }
+  ]
+}

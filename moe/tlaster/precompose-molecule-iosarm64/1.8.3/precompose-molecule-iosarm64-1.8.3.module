@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose-molecule/1.8.3/precompose-molecule-1.8.3.module",
+    "group": "moe.tlaster",
+    "module": "precompose-molecule",
+    "version": "1.8.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-molecule-iosArm64Main-1.8.3.klib",
+          "url": "precompose-molecule-iosarm64-1.8.3.klib",
+          "size": 18428,
+          "sha512": "86bc81616151a16f031b4c74df4f6b9daeb7017843ac41d94da8e7ea6b0cacc8fe6992db654e9e410aca61f01add5836c6876517df8412bd5a12e56a4bc839a7",
+          "sha256": "18e62bdef70a08d892b33e3c81684340d88ce2273b8c77f83288042245ae800b",
+          "sha1": "69f010adf834e7439c2175800d16948c426728a6",
+          "md5": "c95be151cf14b7b442f0ae38aa55b148"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "precompose-molecule-iosarm64-1.8.3-sources.jar",
+          "url": "precompose-molecule-iosarm64-1.8.3-sources.jar",
+          "size": 3446,
+          "sha512": "89e69b64e632b9051bcd94c5e8a7cd85148ee92d32d4ed14a47a6f7779bbdc60a501cb49bab27e889b5928c6d81eb66349dc9faf51408f91cd3b3791b58c6a42",
+          "sha256": "4b0baa203b2b965f39ac9333aca0ad2903f1dcf431aeb38901e96fbe1e44c106",
+          "sha1": "c0165fa21cfb274ee088144e2aaf1b2fd14c375b",
+          "md5": "48e06c3b29df5186f65a85b078c6f6f7"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-molecule-1.8.3.kotlin_resources.zip",
+          "url": "precompose-molecule-iosarm64-1.8.3-kotlin_resources.kotlin_resources.zip",
+          "size": 350,
+          "sha512": "32c7ba4a6eb7c1ee02e210b1661a571b9019d9ab26be804813766f5b0306a03e19cf80d3ae287cc4ba97912be3188491da9ea640c2dec9c67c1dcae9625a33f8",
+          "sha256": "75758272ca1afe4cc02f1fc3542c8c2f979014e05be282f4406aa9380b27ba6c",
+          "sha1": "041e92605611c3a47300ba2644a274845ebf5b38",
+          "md5": "ffba5f180050115259ef608699e0e351"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-molecule-iosarm64-1.8.3-metadata.jar",
+          "url": "precompose-molecule-iosarm64-1.8.3-metadata.jar",
+          "size": 4915,
+          "sha512": "0222c8baa14e71d2f7dd5b79ee65386bf83983c2771cba956c89e6f7055d7bbd6c6f940dcf76de2aeae94b1cfa4f05902d9c3ffa69c92a12b5f7074226287575",
+          "sha256": "836fed35ba61cebe780d2f7460219cf36e449f7eb8c148fdc5ed01c31c6862bb",
+          "sha1": "86f15364d0c860f549676cb5fe90c84a77d89586",
+          "md5": "c3b97c133bc99a5ea976c97d9904ad9e"
+        }
+      ]
+    }
+  ]
+}

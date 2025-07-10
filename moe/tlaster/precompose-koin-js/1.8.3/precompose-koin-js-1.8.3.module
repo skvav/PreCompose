@@ -1,0 +1,225 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose-koin/1.8.3/precompose-koin-1.8.3.module",
+    "group": "moe.tlaster",
+    "module": "precompose-koin",
+    "version": "1.8.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-koin-js-1.8.3.klib",
+          "url": "precompose-koin-js-1.8.3.klib",
+          "size": 3422316,
+          "sha512": "9a98d52caa95c717bfd472721641910f948a292736bfb94bdd006a7454521c983e55cfdb8c3690a66f419a3f47faf1e2d5fb6424e426637531a6da5bf3b6eace",
+          "sha256": "d091d3acf08d9e91707943b6fdc9c9d53875fdb31fb60c36c9deb7f37c1f9888",
+          "sha1": "ee9661f7e761557370e959c77f5eda870a21259f",
+          "md5": "360674422a7f7a46029d9a1b7265e74a"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.3"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose-viewmodel",
+          "version": {
+            "requires": "1.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-koin-js-1.8.3.klib",
+          "url": "precompose-koin-js-1.8.3.klib",
+          "size": 3422316,
+          "sha512": "9a98d52caa95c717bfd472721641910f948a292736bfb94bdd006a7454521c983e55cfdb8c3690a66f419a3f47faf1e2d5fb6424e426637531a6da5bf3b6eace",
+          "sha256": "d091d3acf08d9e91707943b6fdc9c9d53875fdb31fb60c36c9deb7f37c1f9888",
+          "sha1": "ee9661f7e761557370e959c77f5eda870a21259f",
+          "md5": "360674422a7f7a46029d9a1b7265e74a"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "precompose-koin-js-1.8.3-sources.jar",
+          "url": "precompose-koin-js-1.8.3-sources.jar",
+          "size": 1559,
+          "sha512": "194d8e9967a4f37928679f4ac73d59a9a2f913cd8834f4f4349b05fc12f11ca76a4946ea4dea31b971ab3c7fb9cdaff86d10c983eb1d689b262ba73f7b3deba6",
+          "sha256": "12dbb78fca3a1a7bb05bb06087206fa2829964d4b0b9252bf439f409c45a3e5d",
+          "sha1": "70ef88a6f223a3104078dedcc81cf04ddf37ea23",
+          "md5": "c43ad676a52f1676a9c2f09640b01986"
+        }
+      ]
+    },
+    {
+      "name": "jsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.3"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose-viewmodel",
+          "version": {
+            "requires": "1.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-koin-1.8.3.kotlin_resources.zip",
+          "url": "precompose-koin-js-1.8.3-kotlin_resources.kotlin_resources.zip",
+          "size": 342,
+          "sha512": "7d4289dbb4a3c3fe8fe1b5f3e9583988d9bef1804b8ffd8d3bf28ded636cdbb3ed43ccc575cad0017b2aab75ec034622c9b6afc44cc8ffdd91abd22798033fe9",
+          "sha256": "a547d3d6677d6fd60eaaf82f0a390578d2f05df3ff2c0ad6d025e26253526570",
+          "sha1": "9e8b1d79b5c86ef0033b3d5d7c63854edea32b0f",
+          "md5": "da10884dff074cdc8e12cc36b5ce90bf"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose-molecule/1.8.3/precompose-molecule-1.8.3.module",
+    "group": "moe.tlaster",
+    "module": "precompose-molecule",
+    "version": "1.8.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-molecule-js-1.8.3.klib",
+          "url": "precompose-molecule-js-1.8.3.klib",
+          "size": 3431371,
+          "sha512": "285fd3d350c67000af72d6f560a38ec21747fc6ffcafa005ca078e43b11445dfbecbdba946c6f9637b681c0107a7bb1fc90be122aa213da54a0854aa4baa864b",
+          "sha256": "fdcadf2f6b3d83b1516e2c1c97ec108148ac0f042b14829b7b9428fccdb1f0b6",
+          "sha1": "bb9872a02e627affcc03eae5174f0187b9e77316",
+          "md5": "ce34bf3565224f1305532ae6d5b3d0c9"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-molecule-js-1.8.3.klib",
+          "url": "precompose-molecule-js-1.8.3.klib",
+          "size": 3431371,
+          "sha512": "285fd3d350c67000af72d6f560a38ec21747fc6ffcafa005ca078e43b11445dfbecbdba946c6f9637b681c0107a7bb1fc90be122aa213da54a0854aa4baa864b",
+          "sha256": "fdcadf2f6b3d83b1516e2c1c97ec108148ac0f042b14829b7b9428fccdb1f0b6",
+          "sha1": "bb9872a02e627affcc03eae5174f0187b9e77316",
+          "md5": "ce34bf3565224f1305532ae6d5b3d0c9"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "precompose-molecule-js-1.8.3-sources.jar",
+          "url": "precompose-molecule-js-1.8.3-sources.jar",
+          "size": 3409,
+          "sha512": "e1dfb37012e5ee04aa0f75c32880ef69192c79723cd2c60286d6ba5911fa267b13f376804d5eab22e24f85882f0a0b6ec64faec95015fae44a646b77a48d8ee3",
+          "sha256": "9c1c02d114dbb5b24f071bb6c2efff1bedcd15dff08153c4a5496489b7817338",
+          "sha1": "4e5de43e4c45c07590eba123a22073b522b83ec5",
+          "md5": "e23b4c23873dc6d96484e5d7949f2f90"
+        }
+      ]
+    },
+    {
+      "name": "jsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-molecule-1.8.3.kotlin_resources.zip",
+          "url": "precompose-molecule-js-1.8.3-kotlin_resources.kotlin_resources.zip",
+          "size": 350,
+          "sha512": "28e564c88cccb3477619cf50702500ad0692912caee92d6059918a0504aa5c624b0a71651cd889df1d3980e2002132d37c4a0b8b5ab33da871c563dd955cdf30",
+          "sha256": "8ae662c84c29e7874fa4c346ce2815af551e589211ee90e2412012699bd5b2ff",
+          "sha1": "f79a43b170a92aeb1c5f33d4d9db51561aeb2560",
+          "md5": "89538fa9d9be9c14b29c2b9aee911db9"
+        }
+      ]
+    }
+  ]
+}

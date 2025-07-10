@@ -1,0 +1,208 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../precompose-molecule/1.8.3/precompose-molecule-1.8.3.module",
+    "group": "moe.tlaster",
+    "module": "precompose-molecule",
+    "version": "1.8.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.9.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-molecule-debug.aar",
+          "url": "precompose-molecule-android-debug-1.8.3.aar",
+          "size": 20014,
+          "sha512": "a9bd97042cc6b09744da332620c3c644726efe67975fdc6b3376e1321a5abbe83123ce7c37c7f29c96873b0fd68d3ed62cf7a3c1aaf5e612575e701e9b69fb5a",
+          "sha256": "ef14602f3169d188ddd85742937e1d9ce139dc04438aa9005f5d7f8a87ef63e5",
+          "sha1": "f70946cb6182e0713ab9c4983d0dd6cb06ee46c3",
+          "md5": "904d8a4c140b45e2a769eacdd60a1a88"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.9.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "moe.tlaster",
+          "module": "precompose",
+          "version": {
+            "requires": "1.8.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "precompose-molecule-debug.aar",
+          "url": "precompose-molecule-android-debug-1.8.3.aar",
+          "size": 20014,
+          "sha512": "a9bd97042cc6b09744da332620c3c644726efe67975fdc6b3376e1321a5abbe83123ce7c37c7f29c96873b0fd68d3ed62cf7a3c1aaf5e612575e701e9b69fb5a",
+          "sha256": "ef14602f3169d188ddd85742937e1d9ce139dc04438aa9005f5d7f8a87ef63e5",
+          "sha1": "f70946cb6182e0713ab9c4983d0dd6cb06ee46c3",
+          "md5": "904d8a4c140b45e2a769eacdd60a1a88"
+        }
+      ]
+    },
+    {
+      "name": "debugSourcesElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "precompose-molecule-android-debug-1.8.3-sources.jar",
+          "url": "precompose-molecule-android-debug-1.8.3-sources.jar",
+          "size": 3484,
+          "sha512": "2d8587a066ed62e386b2f0745de48c2cf1496126cb4b23569d41f59d7eeaa37b2afd871869ed55a86f2c5b74d4f6181ab92d19ccd7e0d2c640a772091bad5dac",
+          "sha256": "4ebf2ddf5ea402b136d3416ef255ebe0c73c23ab680a2cc0c2de7e7da39f63ba",
+          "sha1": "43b7eab0488f88104cc760774a8f1df8632e41b7",
+          "md5": "5b08c689a5ed84e02edf83d7337ea2f6"
+        }
+      ]
+    }
+  ]
+}
