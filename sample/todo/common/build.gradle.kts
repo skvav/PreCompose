@@ -23,6 +23,7 @@ kotlin {
                 api(compose.runtime)
                 api(compose.foundation)
                 api(compose.material)
+                api(compose.materialIconsExtended)
                 api(libs.koin)
                 api(libs.koin.compose)
                 api(project(":precompose"))
